@@ -1,0 +1,12 @@
+/* css styles */
+.quarto-about-jolla p.subtitle {
+ text-align: center;
+}
+
+.navbar-logo {
+    max-height: 44px;
+    max-width: 190px;
+    height: 44px;
+    width: 190px;
+    margin-top: -9px;
+}

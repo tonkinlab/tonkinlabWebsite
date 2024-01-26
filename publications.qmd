@@ -1,0 +1,335 @@
+---
+title: "Publications"
+toc: true
+
+listing:
+  - id: current-team
+    contents: "people/current/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+    field-display-names: 
+      started: "Started"
+---
+
+<!-- Updated `r format(Sys.time(), '%d %B, %Y')` -->
+
+## Featured papers
+:::{#current-team}
+:::
+
+```{r, echo=F, include=T, results=T, warning=F, message=F}
+
+library(tidyverse)
+library(bib2df)
+
+#Publications <- bib2df('assets/MyPubs.bib', separate_names = F) #%>%
+ # mutate(author = paste(author, collapse = ", "))
+
+RefManageR::BibOptions(first.inits = T)
+pubs <- RefManageR::ReadBib('assets/MyPubs.bib')
+pubdf <- as.data.frame(pubs) 
+pubdf$bibtexkey <- row.names(pubdf)
+pubdf$year <- as.numeric(as.character(pubdf$year))
+pubdf$author <- stringr::str_replace_all(pubdf$author," and",", ")
+
+pubdf <- pubdf %>% 
+  group_by(bibtype) %>% 
+  arrange(year, desc(bibtexkey)) %>%
+  mutate(pubno = as.character(seq(1:n()))) %>%
+  ungroup()
+
+pubdf <- pubdf %>% 
+  mutate(bibtype = case_when(bibtype == "Article" ~ "Journal article", 
+                             bibtype == "InCollection" ~ "Book chapter",
+                             bibtype == "Misc" ~ "Preprint"))
+
+lab <- c("Gabrielle Koerich", "Andrea Tabi")
+
+# 
+# RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
+# bib.style = "authoryear"))
+
+#   mutate(TITLE = str_to_sentence(TITLE),
+#          JOURNAL = str_to_title(JOURNAL) %>% 
+#            str_replace_all("Of", "of") %>% 
+#            str_replace_all("The", "the") %>% 
+#            str_replace_all("And", "and"))
+
+makeref <- function(df) {
+    i=1
+  # loop through each row of the dataframe
+    # extract the bibliographic fields from the current row
+    author <- df$author[i]
+    year <- df$year[i]
+    title <- df$title[i]
+    journal <- df$journal[i]
+    volume <- df$volume[i]
+    issue <- df$number[i]
+    #num <- df$ArtNo[i]
+    abstract <- df$abstract[i]
+    bibtexkey <- df$bibtexkey[i]
+    #page_start <- df$`Page start`[i]
+    #page_end <- df$`Page end`[i]
+    pages <- df$pages[i]
+    doi <- df$doi[i]
+    url <- df$url[i]
+    number <- df$seq[i]
+    keywords <- df$keywords[i]
+    pubno <- df$pubno[i]
+    bibtype <- df$bibtype[i]
+    booktitle <- df$booktitle[i]
+    publisher <- df$publisher[i]
+    #jcr <- df$JCR[i]
+    # handle missing fields
+    if (is.na(author)) { author <- "" }
+    if (is.na(year)) { year <- "" }
+    if (is.na(title)) { title <- "" }
+    if (is.na(journal)) { journal <- "" }
+    if (is.na(volume)) { volume <- "" }
+    if (is.na(issue)) { issue <- "" }
+    if (is.na(abstract)) { abstract <- "" }
+    if (is.na(pubno)) { pubno <- "" }
+    #if (is.na(num)) { num <- "" }
+    # if (!is.na(page_start)) {
+    #   if (!is.na(page_end)) {
+    #     pages <- paste0(page_start,"-",page_end) 
+    #   } else {
+    #     pages <- page_start
+    #   }
+    # }
+    if (!is.na(doi)) {
+      url <- doi 
+    } else if (is.na(url)) {
+      url <- ""
+    }
+    if (!is.na(keywords)) {
+      keywords <- stringr::str_to_lower(stringr::str_split(keywords,"; ")[[1]])
+    } else {
+      keywords <-c()
+    }
+    
+    # format the bibliographic entry in APA style
+    entry <- ""
+    
+entry <- paste("    <style>
+  li {
+    margin: 10px 0;
+  }
+</style> </br>")
+    
+        if (pubno != "") { entry <- paste(entry, "<span>", pubno, "</span>", sep = "") }
+
+      
+        if (title != "") { entry <- paste(entry, "<b>.  ", title, "</b><br>", sep = "") }
+
+        if (year != "") { entry <- paste(entry, year , " -- ", sep = "") }
+
+if (bibtype == "Book chapter") {entry <- paste(entry, "<i>", booktitle,"</i><br> ", sep = "") 
+} else if (bibtype == "Preprint") { entry <- paste(entry, "<i>", publisher,"</i><br> ", sep = "") 
+} else if (journal != "") { entry <- paste(entry, "<i>", journal,"</i><br> ", sep = "") }
+
+ 
+    
+ #    entry <- paste(entry, ". <a target='_blank' href='assets/papers/", bibtexkey, ".pdf'> {{< iconify fa file-pdf-o >}}",  "</a><br>", sep = "")
+          
+      
+
+    if (author != "") { 
+      entry <- paste(entry, author, " <br>", sep = "")
+      entry <- stringr::str_replace(entry,"Jonathan D. Tonkin","<b>Jonathan D. Tonkin</b>")
+      for(i in lab){      entry <- stringr::str_replace(entry, i, paste0("<b>",i ,"</b>"))
+}
+    }
+     
+         entry <- paste("<li style='position:relative;margin-bottom:0.2rem;list-style:none;'>", entry, "</li>", sep = "")
+
+    
+    
+    entry <- paste(entry, "<span class='badges'><div class='altmetric-embed' data-badge-type='medium-bar' data-doi='", doi, "'></div></span>", sep = "")
+    #if (volume != "") { entry <- paste(entry, ", vol. ", volume, sep = "") }
+    #if (issue != "") { entry <- paste(entry,ifelse(volume != "",""," "), "(", issue, ")", sep = "") }
+    #if (num != "") { entry <- paste(entry, ", art. no. " , num, sep = "") }
+    #if (pages != "") { entry <- paste(entry, ", pp. " , pages , sep = "") }
+    
+   
+    
+     # entry <- paste(entry,      "<span class='url link badge'>
+     #    
+     #       
+     #     <i class='altmetric-embed' data-badge-type='4' data-condensed='true' data-hide-no-mentions='true' data-badge-popover='right' data-doi='", doi, "'></i></span><br>", sep = "")
+    #     
+    
+    # 
+    # entry <- paste(entry,      "<span class='badges'>
+    # <div data-badge-popover='right' data-badge-type='donut' data-doi='", doi, "' data-condensed='true'
+    #     data-hide-no-mentions='true' data-hide-less-than='10' class='altmetric-embed'></div></span><br>", sep = "")
+    
+    
+   #  entry <- sprintf(entry, '<div data-badge-popover="right" data-no-score="true" data-badge-type="bar" data-doi="%s" data-hide-no-mentions="true" class="altmetric-embed"></div>',
+    #      doi)
+     
+    # if (jcr != "") {
+    #   entry <- paste(entry, ". ", "(JCR ",jcr, ")", sep="")
+    # }  
+    # entry <- paste0(entry,".")
+
+        if (url != "") { 
+      if (!is.na(doi)) {
+        entry <- 
+          paste(entry, " <button type='button' class = 'btn btn-sm btn-outline-success'>
+                   <a target='_blank' href='https://doi.org/",doi,"' style = 'text-decoration: none; color:inherit;'> {{< iconify ph link-bold >}}",  "<i>&nbsp; fulltext</i></a>
+                   </button>", sep = "")
+        
+          #paste(entry, "doi: <a target='_blank' href='https://doi.org/",doi,"'>" , doi , "</a>" ,sep = "") 
+      
+        } else {
+          entry <- 
+            paste(entry, " <button type='button' class = 'btn btn-sm btn-outline-success'>
+                   <a target='_blank' href='",url,"' style = 'text-decoration: none; color:inherit;'> {{< iconify ph link-bold >}}",  "<i>&nbsp; fulltext</i></a>
+                   </button>", sep = "")
+          
+          #  paste(entry, "<a target='_blank' href='",url,"'>" , url , "</a>" , sep = "") 
+
+      }
+    }
+    
+    entry <- paste(entry, " <button type='button' class = 'btn btn-sm btn-outline-danger'>
+                   <a target='_blank' href='assets/papers/", bibtexkey, ".pdf' style = 'text-decoration: none; color:inherit;'> {{< iconify fa file-pdf-o >}}",  "<i>&nbsp; pdf</i></a>
+                   </button>", sep = "")
+    
+        if (abstract != "") { 
+       entry <- paste(entry, " <button type='button' data-bs-toggle='collapse' data-bs-target='#ref-",number,"'   aria-expanded='false'  aria-controls='ref-",number,"' class='btn btn-sm btn-outline-info'><i class='bi bi-arrows-expand'>&nbsp; abstract</i></button>", sep = "")
+
+       entry <- paste(entry,"<div class='collapse' id='ref-",number,"'>",
+                      "<p class='small'><br/>" , 
+                      abstract , 
+                      "</p><br/>"," </div>", sep = "") 
+     }
+
+                   
+     entry <- paste("<li style='position:relative;margin-bottom:1.2rem;list-style:none;'>", entry, "</li>", sep = "")
+     
+              # </span>
+     entry
+     
+ }
+pubdf <- pubdf %>% ungroup %>% dplyr::mutate(seq = seq_along(title)) 
+pubdf <- pubdf %>%  rowwise %>% 
+  dplyr::mutate(Ref = makeref(pubdf[seq,])) %>%
+  arrange(year, bibtexkey) 
+```
+
+```{r, echo=F, warning = F, eval = F}
+# outcomes <- Publications %>%  janitor::tabyl(CATEGORY) %>% data.frame %>% pull(n, CATEGORY) 
+# #outcomes_with_types <- Publications %>% dplyr::mutate(field = ifelse(is.na(JCR), CATEGORY ,JCR)) %>% janitor::tabyl(field) %>% data.frame %>% pull(n,field) 
+# only_types <- Publications %>% janitor::tabyl(JCR) %>% data.frame %>% filter(!is.na(JCR)) %>% arrange(JCR) %>% pull(n,JCR) 
+# output = paste0("My ", nrow(Publications), " research publications include ")
+# types_pub = rev(names(outcomes))
+# for (i in 1:length(types_pub)) {
+#   pubb <- types_pub[i]
+#   numberr <- outcomes[[pubb]]
+#   lastt <- i==length(types_pub)
+#   jcrs <- ""
+#   if (pubb == "Journal Article") {
+#     if (outcomes_with_types[["Journal Article"]] != outcomes[["Journal Article"]] ){
+#       jcrs <- paste0(jcrs," (")
+#       for (j in 1:length(names(only_types))){
+#         qq <- names(only_types)[j]
+#         jcrs <- paste0(jcrs, only_types[[qq]], " JCR ",qq, ifelse(only_types[[qq]]>1,"s",""),ifelse( length(names(only_types)) == j,"",", "))
+#       }
+#       jcrs <- paste0(jcrs,")")
+#     } 
+#   }
+#   
+#   output = paste0( output, ifelse(lastt, "and ",""), 
+#                    numberr, " ",  stringr::str_to_lower(pubb), 
+#                    ifelse(numberr > 1,"s",""),
+#                    jcrs,
+#                    ifelse( lastt,".",", "))
+# }
+# htmltools::tags$p(output)
+```
+
+
+```{r, echo= F, include=F, warning = F}
+# pub_types = (unique(pubdf$bibtype))
+# pub_tags <- htmltools::tagList()
+# for (p in 1:length(pub_types)) {
+#   year_tags = htmltools::tagList()
+#   ds <- pubdf %>% filter(bibtype == pub_types[p])
+#   years <- unique(ds$year)
+#   for (y in 1:length(years)){
+#     research_tags = htmltools::tagList()
+# 
+#     dy <- ds %>% filter(year == years[y])
+#     for (i in 1:nrow(dy)) {
+#        if (!is.na(dy[i,]$Ref)){
+#          research_tags[[i]] <- htmltools::HTML(dy[i,]$Ref)
+#        }
+#      }
+#      
+#      year_tags[[y]] <- htmltools::tagList(
+#        htmltools::tags$h3(paste0(years[y])),
+#        htmltools::tags$ul(
+#          research_tags,
+#          style="padding-left: 3rem"
+#        )
+#      )
+#    }
+#    
+#    pub_tags[[p]] <- htmltools::tagList(
+#        htmltools::tags$h2(paste0(pub_types[p],"s")),
+#        year_tags
+#     )
+# }
+# (pub_tags)
+```
+ 
+```{r, echo= F, results='asis', warning = F}
+pub_types = unique(pubdf$bibtype) 
+pub_types <- factor(pub_types, levels =c("Preprint", "Book chapter", "Journal article"))
+pub_types <- sort(pub_types)
+pub_tags <- htmltools::tagList()
+for (p in 1:length(pub_types)) {
+  year_tags = htmltools::tagList()
+  ds <- pubdf %>% filter(bibtype == pub_types[p]) %>% arrange(desc(year))
+  years <- unique(ds$year)
+  for (y in 1:length(years)){
+    research_tags = htmltools::tagList()
+    dy <- ds %>% filter(year == years[y])
+    for (i in 1:nrow(dy)) {
+      if (!is.na(dy[i,]$Ref)){
+        research_tags[[i]] <- htmltools::HTML(dy[i,]$Ref)
+      }
+    }
+    
+    ifelse(ds$bibtype == "Journal article", 
+    {year_tags[[y]] <- htmltools::tagList(
+   #     ifelse(ds$bibtype == "Journal article", 
+#htmltools::tags$h3(paste0(years[y])), ""),
+
+      
+      htmltools::tags$h3(paste0(years[y])),
+      htmltools::tags$ul(research_tags, style="padding-left: 3rem")
+    )}, 
+{year_tags[[y]] <- htmltools::tagList(
+   #     ifelse(ds$bibtype == "Journal article", 
+#htmltools::tags$h3(paste0(years[y])), ""),
+
+      
+      #htmltools::tags$h3(paste0(years[y])),
+      htmltools::tags$ul(research_tags, style="padding-left: 3rem")
+    )})
+  }
+  cat(paste0("\n## ", pub_types[p],"s\n"))
+
+    print(year_tags)
+  
+    
+}
+
+```

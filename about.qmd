@@ -1,0 +1,13 @@
+---
+title: "About"
+
+about:
+  template: solana
+  image-width: 20em
+---
+
+About this site
+
+```{r}
+1 + 1
+```

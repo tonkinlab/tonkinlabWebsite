@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card: true
+  favicon: assets/img/icon-512.png
+  navbar:
+    #background: transparent
+    logo: /assets/img/logo-wide-sub.png
+    title: false
+    right:
+      - href: index.qmd
+        text: Home
+      - href: people.qmd
+        text: People
+      - publications.qmd
+      - opportunities.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+editor: visual
+
