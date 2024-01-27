@@ -19,11 +19,18 @@ twitter-card:
     description: |
       Researcher and R educator applying biomedical and spatial data science in ways that prioritize health equity.
     image: assets/silvia/img/silvia-social.png
-
 about:
   id: lab-overview
   template: solana
   image-width: 20em
+listing: 
+  - id: test
+    contents: 
+      - publications.qmd
+      - people.qmd
+    type: grid
+    image-height: 225px
+    grid-columns: 3
 #page-layout: full
 ---
 
@@ -32,19 +39,73 @@ about:
 <!-- ::: -->
 
 
-#### Welcome to the Tonkin Lab at the University of Canterbury, New Zealand, where we do <b>ecology for a changing world</b>   
+#### Welcome to the Tonkin Lab at the University of Canterbury, New Zealand, where we do <b>ecology for a changing world</b>. 
+
+We tackle fundamental questions in ecology, including... 
+   
 
 
 
 <!-- ![](assets/img/cover-nw.png){.hero} -->
 
 
-We tackle fundamental questions in ecology, including... <br> ... how populations and communities vary in space & time <br> ... how they resist and recover from change <br> ... and how they might look in a future world. <br> <br> We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries.
+<!-- We tackle fundamental questions in ecology, including... <br> ... how populations and communities vary in space & time <br> ... how they resist and recover from change <br> ... and how they might look in a future world. <br> <br> We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries. -->
+
+
+::: {.grid}
+
+::: {.g-col-4}
+
+<div class="d-grid gap-2">
+  <button class="btn btn btn-light" type="button" style="height: 130px">
+  <i>how populations and communities vary in space & time</i>
+</div>
+
+:::
+
+::: {.g-col-4}
+
+<div class="d-grid gap-2">
+  <button class="btn btn btn-light" type="button" style="height: 130px">
+  <i>how they resist and recover from change</i>
+</div>
+
+:::
+
+::: {.g-col-4}
+
+<div class="d-grid gap-2">
+  <button class="btn btn btn-light" type="button" style="height: 130px">
+  <i>and how they might look in a future world</i>
+</div>
+
+:::
+
+:::
+
+We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries. <br><br>
+
+:::{#test}
+:::
+
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">how populations and communities vary in space & time</p> -->
+
+<!--   </blockquote> -->
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">how they resist and recover from change</p> -->
+
+<!--   </blockquote> -->
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">and how they might look in a future world.</p> -->
+
+<!--   </blockquote> -->
+
 
 <iframe width="100%" height="400"  src="https://www.youtube.com/embed/Lr5wEkHvXAw?si=kbUvhJf3N0roIASS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="d-grid gap-2">
-  <button class="btn btn btn-secondary" type="button">Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūtaiao Maea MacDiarmid Emerging Scientist Prize for 2022. Details [here](https://pmscienceprizes.org.nz/2022-winner-of-te-puiaki-kaiputaiao-maea-the-macdiarmid-emerging-scientist-prize/).</button>
+  <button class="btn btn btn-light" type="button">Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūtaiao Maea MacDiarmid Emerging Scientist Prize for 2022. Details [here](https://pmscienceprizes.org.nz/2022-winner-of-te-puiaki-kaiputaiao-maea-the-macdiarmid-emerging-scientist-prize/).</button>
 </div>
 
 
