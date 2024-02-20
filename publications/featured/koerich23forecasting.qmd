@@ -1,0 +1,23 @@
+---
+title: "Forecasting the future of life in Antarctica"
+sortby: "103"
+subtitle: "_Trends in Ecology & Evolution_ 2023"
+image: koerich23forecasting.jpg
+image-title: "Remote sensing is being used to census Antarctic populations. Map of Antarctica showing the locations of data collected through very high-resolution (VHR) satellite imagery for emperor (Aptenodytes forsteri; blue points) and Adélie penguins (Pygoscelis adeliae; purple points), and Weddell seals (Leptonychotes weddellii; pink points). (A) The location of individual data points on the tip of the Antarctic Peninsula. Data from [64] (Adélie penguins), [65] (emperor penguins), and [23] (Weddell seals). Photos reproduced with permission from M. LaRue."
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+
+<br><span>83</span><b>. Forecasting the future of life in Antarctica</b><br>2023 – <i>Trends in Ecology &amp; Evolution</i><br> <b>Gabrielle Koerich</b>, Ceridwen I. Fraser, Charles K. Lee, Fraser J. Morgan, <b>Jonathan D. Tonkin</b> <br>
+</li>
+<button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1016/j.tree.2022.07.009" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="/assets/papers/koerich23forecasting.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-85" aria-expanded="false" aria-controls="ref-85" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
+<div id="ref-85" class="collapse">
+<p class="small">
+<br>Antarctic ecosystems are under increasing anthropogenic pressure, but efforts to predict the responses of Antarctic biodiversity to environmental change are hindered by considerable data challenges. Here, we illustrate how novel data capture technologies provide exciting opportunities to sample Antarctic biodiversity at wider spatiotemporal scales. Data integration frameworks, such as point process and hierarchical models, can mitigate weaknesses in individual data sets, improving confidence in their predictions. Increasing process knowledge in models is imperative to achieving improved forecasts of Antarctic biodiversity, which can be attained for data-limited species using hybrid modelling frameworks. Leveraging these state-of-the-art tools will help to overcome many of the data scarcity challenges presented by the remoteness of Antarctica, enabling more robust forecasts both near- and long-term.
+</p>
+<br>
+</div>
+

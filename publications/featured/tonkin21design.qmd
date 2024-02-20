@@ -1,0 +1,14 @@
+---
+title: "Designing flow regimes to support entire river ecosystems"
+sortby: "103"
+subtitle: "_Frontiers in Ecology and the Environment_ 2021"
+image: tonkin21design.png
+image-title: "Ecosystem-wide tradeoffs associated with targeted river flow regimes"
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+
+

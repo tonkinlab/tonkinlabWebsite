@@ -1,6 +1,5 @@
 project:
   type: website
-
 website:
   page-navigation: true
   back-to-top-navigation: true
@@ -8,22 +7,24 @@ website:
   favicon: assets/img/icon-512.png
   navbar:
     #background: transparent
-    logo: /assets/img/logo-wide-sub.png
+    logo: /assets/img/logo-new-2.png
     title: false
     right:
       - href: index.qmd
         text: Home
       - href: people.qmd
         text: People
+      - research.qmd
       - publications.qmd
       - opportunities.qmd
-
+  page-footer:
+    left:  Made with {{< iconify fa-brands r-project >}} and [quarto](https://quarto.org)
+    right: 2024 {{< iconify fa copyright >}} Jonathan D. Tonkin
 format:
   html:
     theme: flatly
     css: styles.css
     toc: true
-
-
-editor: visual
-
+#    page-layout: full
+editor:
+  mode: source

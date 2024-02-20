@@ -1,0 +1,42 @@
+---
+title: "Research"
+listing:
+  - id: interests
+    contents: "research/interests/*.qmd"
+    type: grid
+    image-height: 200px
+    grid-columns: 3
+    fields: [image, title]
+    grid-item-align: center
+    sort: sortby
+    field-display-names: 
+      started: "Started"
+---
+
+:::{#interests}
+:::
+
+
+
+
+
+
+<br><br><br>
+
+<center>
+
+Proudly supported by:
+
+```{r, results = 'asis', echo = FALSE}
+
+plots <- list.files("assets/img/funders/")
+
+for(i in plots){
+  #filename <- file.path(i)
+  cat("![](assets/img/funders/",i,"){height=80px}", sep = "")
+}
+```
+
+<br>
+
+</center>

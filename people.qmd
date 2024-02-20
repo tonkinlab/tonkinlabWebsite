@@ -1,6 +1,7 @@
 ---
 pagetitle: "People"
 toc: false
+image: assets/img/stream-wide.jpg
 listing:
   - id: current-team
     contents: "people/current/*.qmd"
@@ -14,18 +15,8 @@ listing:
       started: "Started"
   - id: alumni
     contents: "people/alumni/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    sort: sortby
-    fields: [image, title, subtitle, started]
-    field-display-names: 
-      started: "Started"
-    grid-item-align: center
-  - id: alumni
-    contents: "people/alumni/*.qmd"
     type: table
-    sort: sortby
+    sort: ended desc
     fields: [title, subtitle, started, ended]
     sort-ui: [title, subtitle, started, ended]
     filter-ui: [title, subtitle, started, ended]
@@ -36,14 +27,14 @@ listing:
       ended: "Ended"
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
-  </ol>
-</nav>
-```
+<!-- ```{=html} -->
+<!-- <nav aria-label="breadcrumb"> -->
+<!--   <ol class="breadcrumb"> -->
+<!--     <li class="breadcrumb-item"><a href="index.html">Home</a></li> -->
+<!--     <li class="breadcrumb-item active" aria-current="page">People</li> -->
+<!--   </ol> -->
+<!-- </nav> -->
+<!-- ``` -->
 
 
 ## Current team

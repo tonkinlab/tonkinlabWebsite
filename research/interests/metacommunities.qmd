@@ -1,0 +1,13 @@
+---
+title: "Metacommunity ecology"
+sortby: "103"
+subtitle: "Disentangling the role of local and regional drivers of biodiversity including dispersal"
+image: metacommunities.jpeg
+image-title: "Metacommunities represent communities connected by dispersal (see Tonkin et al., 2018; FWB)."
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+The metacommunity concept has advanced our understanding of the processes shaping community assembly by emphasising the interdependence of local communities and the regional species pool. Essentially, communities are shaped by an interplay between local (environmental filtering and biotic interactions; species sorting) and regional (dispersal) processes. We are particularly interested in the governing role that the structure of landscape or riverscape networks have on governing metacommunity dynamics, and increasingly how this influences the stability of local and regional biodiversity under environmental change. We use a variety of approaches to tackle these questions, including analysis of long-term datasets and mechanistic simulations. 

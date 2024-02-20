@@ -3,11 +3,11 @@ title: "Publications"
 toc: true
 image: assets/img/nature-paper.png
 listing:
-  - id: current-team
-    contents: "people/current/*.qmd"
+  - id: featured
+    contents: "publications/featured/*.qmd"
     type: grid
     image-height: 225px
-    grid-columns: 3
+    grid-columns: 2
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
@@ -18,7 +18,8 @@ listing:
 <!-- Updated `r format(Sys.time(), '%d %B, %Y')` -->
 
 ## Featured papers
-:::{#current-team}
+
+::: {#featured}
 :::
 
 ```{r, echo=F, include=T, results=T, warning=F, message=F}
@@ -47,7 +48,7 @@ pubdf <- pubdf %>%
                              bibtype == "InCollection" ~ "Book chapter",
                              bibtype == "Misc" ~ "Preprint"))
 
-lab <- c("Gabrielle Koerich", "Andrea Tabi")
+lab <- c("Gabrielle Koerich", "Andrea Tabi", "Holly A. L. Harris")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
@@ -149,7 +150,7 @@ if (bibtype == "Book chapter") {entry <- paste(entry, "<i>", booktitle,"</i><br>
 
     
     
-    entry <- paste(entry, "<span class='badges'><div class='altmetric-embed' data-badge-type='medium-bar' data-doi='", doi, "'></div></span>", sep = "")
+    #entry <- paste(entry, "<span class='badges'><div class='altmetric-embed' data-badge-type='medium-bar' data-doi='", doi, "'></div></span>", sep = "")
     #if (volume != "") { entry <- paste(entry, ", vol. ", volume, sep = "") }
     #if (issue != "") { entry <- paste(entry,ifelse(volume != "",""," "), "(", issue, ")", sep = "") }
     #if (num != "") { entry <- paste(entry, ", art. no. " , num, sep = "") }
@@ -197,9 +198,12 @@ if (bibtype == "Book chapter") {entry <- paste(entry, "<i>", booktitle,"</i><br>
       }
     }
     
+         
+         if (bibtype != "Preprint") {
     entry <- paste(entry, " <button type='button' class = 'btn btn-sm btn-outline-danger'>
                    <a target='_blank' href='assets/papers/", bibtexkey, ".pdf' style = 'text-decoration: none; color:inherit;'> {{< iconify fa file-pdf-o >}}",  "<i>&nbsp; pdf</i></a>
                    </button>", sep = "")
+         }
     
         if (abstract != "") { 
        entry <- paste(entry, " <button type='button' data-bs-toggle='collapse' data-bs-target='#ref-",number,"'   aria-expanded='false'  aria-controls='ref-",number,"' class='btn btn-sm btn-outline-info'><i class='bi bi-arrows-expand'>&nbsp; abstract</i></button>", sep = "")
@@ -254,7 +258,6 @@ pubdf <- pubdf %>%  rowwise %>%
 # htmltools::tags$p(output)
 ```
 
-
 ```{r, echo= F, include=F, warning = F}
 # pub_types = (unique(pubdf$bibtype))
 # pub_tags <- htmltools::tagList()
@@ -288,7 +291,7 @@ pubdf <- pubdf %>%  rowwise %>%
 # }
 # (pub_tags)
 ```
- 
+
 ```{r, echo= F, results='asis', warning = F}
 pub_types = unique(pubdf$bibtype) 
 pub_types <- factor(pub_types, levels =c("Preprint", "Book chapter", "Journal article"))
