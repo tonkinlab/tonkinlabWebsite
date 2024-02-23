@@ -10,5 +10,13 @@ about:
   template: marquee
 ---
 
-
+<br><span>62</span><b>. Designing flow regimes to support entire river ecosystems</b><br>2021 – <i>Frontiers in Ecology and the Environment</i><br> <b>Jonathan D. Tonkin</b>, Julian D. Olden, David M. Merritt, Lindsay V. Reynolds, Jane S. Rogosch, David A. Lytle <br>
+</li>
+<button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1002/fee.2348" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="/assets/papers/tonkin21designing.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-62" aria-expanded="false" aria-controls="ref-62" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
+<div id="ref-62" class="collapse">
+<p class="small">
+<br>Overcoming challenges of water scarcity necessitates creative flow management approaches that account for multiple, potentially competing water needs of plants and animals in river ecosystems. Mechanistic multispecies models can guide decision making by evaluating trade-offs associated with flow regimes designed for specific ecosystem outcomes before implementation. We investigated the cross-ecosystem effects of environmental flow regimes designed to benefit focal groups of riparian vegetation, fishes, and invertebrates. The models revealed trade-offs among different designer flow regimes with narrow taxonomic targets, which in some cases caused non-target taxa to become locally extirpated within short (decadal) timespans. By incorporating multiple flow frequencies {} from intra-annual-scale pulses to large decadal-scale floods {} the simulated natural flow regime enabled balanced, albeit smaller, population sizes across the three ecosystem components: 72% of that achieved by designer flow regimes, on average. Although returning to a natural flow regime may not be possible in highly flow-modified rivers, novel flow regimes must incorporate diverse flood and drought frequencies to accommodate the occasionally conflicting requirements of different taxa at different times.
+</p>
+<br>
+</div>
 

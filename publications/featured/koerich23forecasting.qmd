@@ -2,8 +2,14 @@
 title: "Forecasting the future of life in Antarctica"
 sortby: "103"
 subtitle: "_Trends in Ecology & Evolution_ 2023"
-image: koerich23forecasting.jpg
-image-title: "Remote sensing is being used to census Antarctic populations. Map of Antarctica showing the locations of data collected through very high-resolution (VHR) satellite imagery for emperor (Aptenodytes forsteri; blue points) and Adélie penguins (Pygoscelis adeliae; purple points), and Weddell seals (Leptonychotes weddellii; pink points). (A) The location of individual data points on the tip of the Antarctic Peninsula. Data from [64] (Adélie penguins), [65] (emperor penguins), and [23] (Weddell seals). Photos reproduced with permission from M. LaRue."
+image: koerich23forecasting.png
+image-title: "Ecological mechanisms are increasingly important in Antarctic biodiversity forecasts. (A) The Antarctic Peninsula is a hotbed for the arrival of
+invasive species (points represent known distribution of non-native species), creating novel biotic interactions for resident biota. (B) Demographic
+models are increasingly being applied to understand responses of different penguin life stages to climate change (gentoo penguins pictured). (C) Remote
+sensing using hyperspectral imaging identifies locations with high concentrations of microbial mats in stream channels in the McMurdo Dry Valleys (colours represent
+band absorption identifying high concentrations of microbial mats). (D) Sampling to understand the genetic variation of soil communities on Deception Island. (E) Dynamic Energy Budget models are one way to incorporate physiology into forecasts (here of the limpet Nacella concinna). (F) Dispersal is an important
+mechanism under climate change with the kelp Durvillaea antarctica (pictured) increasingly reaching Antarctica. Photos reproduced with permission from
+M. LaRue (B); J. Levy (C); C. Fraser (D); M. Sissini (E); and C. Fraser (F)."
 toc: false
 about:
   id: research-interest

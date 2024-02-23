@@ -1,8 +1,8 @@
 ---
-title: "Organisation of biodiversity in river networks"
+title: "Biodiversity-climate nexus"
 sortby: "103"
 subtitle: "Uncovering the role of the dendritic structure of river networks on their biodiversity"
-image: riverNetworks.png
+image: map2.png
 image-title: "Different forms of connectivity in river networks (from Tonkin et al., 2018; FWB)"
 toc: false
 about:

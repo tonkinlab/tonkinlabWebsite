@@ -1,0 +1,34 @@
+---
+title: "Arek Aspinwall"
+subtitle: "Master's student"
+image: arekAspinwall.jpg
+started: "2018"
+ended: "2020"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  # links:
+  #   - icon: link
+  #     text: website
+  #     href: 
+  #   - icon: mortarboard
+  #     text: scholar
+  #     href: 
+  #   - icon: github
+  #     text: github
+  #     href: 
+  #   - text: "{{< iconify bi twitter-x>}}"
+  #     href:
+  #   - text: "{{< iconify simple-icons researchgate >}} Researchgate"
+  #     href: 
+  #   - text: "{{< iconify simple-icons orcid >}} OrcID"
+  #     href:
+  #   - icon: envelope
+  #     text: email
+  #     href: mailto: 
+---
+
+*Lead supervisor: [Michelle LaRue](https://www.canterbury.ac.nz/science/contact-us/people/michelle-larue.html)*
+
+interests: Population Dynamics \| Avian Ecology \| Anthrome-ecosystem interactions

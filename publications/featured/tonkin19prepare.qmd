@@ -3,7 +3,7 @@ title: "Prepare river ecosystems for an uncertain future"
 sortby: "103"
 subtitle: "_Nature_ 2019"
 image: tonkin19prepare.png
-image-title: "Native cottonwoods are being displaced by non-native salt cedar in the Dolores River, Utah, owing to flow alteration by damming. Credit: Mark Uliasz/Alamy"
+image-title: "Models of river ecosystems must describe how various species react as droughts become more common in a warmer climate over the next 200 years. Models that consider basic biology predict broader changes that linear extrapolations miss."
 toc: false
 about:
   id: research-interest

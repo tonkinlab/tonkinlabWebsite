@@ -1,0 +1,13 @@
+---
+title: "Floating plants as a model system"
+sortby: "103"
+subtitle: "We are using floating aquatic plants as a model system to test diverse questions in ecology and evolution"
+image: duckweed.png
+image-title: ""
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+

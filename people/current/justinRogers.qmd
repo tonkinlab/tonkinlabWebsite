@@ -1,0 +1,36 @@
+---
+title: "Justin Rogers"
+sortby: "402"
+subtitle: "PhD student (_lead supervised by J. Brasington_)"
+image: justinRogers.jpg
+started: "2020"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  # links:
+  #   - icon: link
+  #     text: website
+  #     href: 
+  #   - icon: mortarboard
+  #     text: scholar
+  #     href: 
+  #   - icon: github
+  #     text: github
+  #     href: 
+  #   - text: "{{< iconify bi twitter-x>}}"
+  #     href:
+  #   - text: "{{< iconify simple-icons researchgate >}} Researchgate"
+  #     href: 
+  #   - text: "{{< iconify simple-icons orcid >}} OrcID"
+  #     href:
+  #   - icon: envelope
+  #     text: email
+  #     href: mailto: 
+---
+
+*Lead supervisor: [James Brasington](https://www.canterbury.ac.nz/science/schools-and-departments/earth-and-environment/contact-us/academic-staff/james-brasington.html)*
+
+Justin has a background in earth science (Wesleyan University, BA) and oceanography (U. of Rhode Island GSO, MSc) and before a 2016 move to Christchurch worked as a consultant with a specialist coastal and lake modelling group (Tetra Tech Canada). Past work has ranged from wave buoys to dye studies to the hydrodynamics of harbours, and continuing work includes the dispersion and risk of municipal wastewater. The opportunity to return to academic study of New Zealand’s iconic braided rivers was well-timed with the completion of a PGDip at Waterways and children starting school.
+
+Justin’s PhD research involves observing and modelling the fine sediment dynamics of the Rangitata River and understanding the river’s morphological response to flow abstraction. The project is funded by DoC and supervised by Dr James Brasington of Waterways, Dr Jo Hoyle of NIWA and Jono. Observations will use a high-resolution LiDAR system to provide unprecedented view of the river’s form and composition, supplemented by photography and in-river surveying. Modelling at multiple scales will seek to understand the behaviour of ecologically problematic fine sediment in space and time.

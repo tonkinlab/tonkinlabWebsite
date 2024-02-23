@@ -284,6 +284,9 @@ Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūt
 
 <br><br><br>
 
+![](assets/img/vision.png){.lightbox} <br><br>
+
+
 <center>
 
 Proudly supported by:
@@ -317,3 +320,5 @@ W: +6433690413 \| E: jonathan.tonkin\@canterbury.ac.nz
 <!--   test text here -->
 
 <!--   </div> -->
+
+

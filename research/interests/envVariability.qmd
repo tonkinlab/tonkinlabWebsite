@@ -1,8 +1,8 @@
 ---
-title: "Temporal ecological variability"
+title: "Seasonality and temporal ecology"
 sortby: "103"
 subtitle: "The role of environmental fluctuations on ecological dynamics across scales"
-image: envVariability.png
+image: wavelet.png
 image-title: "Wavelet diagram of rainfall over a 30-year period in central California (see Tonkin et al., 2017; Ecology)"
 toc: false
 about:
@@ -14,3 +14,7 @@ about:
 
 
 Temporal environmental fluctuations, such as seasonality, exert strong controls on biodiversity. Highly predictable variability can enable the coexistence of an unexpectedly high number of species. We are increasingly realising the rapidity with which natural cycles are changing and the extent to which these changes are affecting biodiversity, from genes to entire ecosystems. These changes are threatening the stability of ecosystems and their services across scales. We develop mechanistic models and analyse long-term ecological datasets to uncover the drivers of temporal variability in ecosystems. We are particularly interested in the link between local and regional dynamics, including dispersal and habitat connectivity, and the role of spatial insurance in regulating the stability of biodiversity at multiple scales. Potential regulators of ecological stability differ across spatial scales, from local compensatory population dynamics to regional-scale asynchrony in community fluctuations.
+
+River ecosystems are governed by patterns of temporal variation in river flows. Two major stressors threaten river flows and the integrity of river ecosystems globally. Dams continue to heavily modify river flow regimes (sequences of floods and drought), and climate change is pushing flow regimes beyond their historical envelope of variability. These alterations to river flows can severely affect freshwater ecosystems. We develop mechanistic models that link population dynamics directly with river flow regimes to understand both population and whole-community (e.g. fish, invertebrates, riparian plants) responses to global change. By explicitly modelling the biology underpinning the distribution of species, rather than correlating the presence of species with particular conditions, mechanistic, or process-based, models offer a greater capacity to forecast species responses to novel combinations of environmental conditions. These models not only enable us to understand and forecast the potential effects of hydro-climatic change on freshwater and riparian biodiversity, but also to inform managers of how to better allocate water to protect downstream biodiversity. For instance, we ask questions of the consequences of designer or environmental flows on entire ecosystems, including the tradeoffs associated with designing flows for a particular sector of the ecosystem. Our research to date emphasises the importance of maintaining aspects of the natural flow regime into a future world, but particularly important is the maintenance of floods to overcome the negative long-term consequences of flow modification on riverine ecosystems.
+
+The world is changing at rates unprecedented in human history, leading to major disruption of ecological dynamics. By analysing long-term ecological datasets with various statistical tools, we have uncovered the various ways in which freshwater biodiversity is being affected by this change. We also focus on developing forecasts of how biodiversity will respond to this change into the future (see [forecasting](/project/forecasting)). 

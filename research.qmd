@@ -1,17 +1,33 @@
 ---
 title: "Research"
+toc: false
 listing:
   - id: interests
     contents: "research/interests/*.qmd"
     type: grid
-    image-height: 200px
+    image-height: 250px
     grid-columns: 3
     fields: [image, title]
     grid-item-align: center
+    grid-item-border: false
     sort: sortby
     field-display-names: 
       started: "Started"
+#page-layout: full
 ---
+
+<style>
+  .card-img {
+ border-radius: 50%;
+}
+</style>
+
+Our research is increasingly diversified but remains focused on understanding and predicting the dynamics of ecological systems, and using this information to effect change. We continue to do basic research, combining theory and experiments with data analysis and synthesis. However, we are passionate about appling this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. Our research can be broadly divided into the following areas (click through for more information). 
+
+<br><br>
+
+
+
 
 :::{#interests}
 :::

@@ -1,8 +1,8 @@
 ---
-title: "River restoration and management"
+title: "Freshwater biodiversity and water resource management"
 sortby: "103"
 subtitle: "Understanding the drivers of restoration success to improve restoration practice in the future"
-image: restoration.png
+image: restoration.jpg
 image-title: "Responses of different organisms to hydromorphological restoration in Germany (see Pilotto et al., 2019)"
 toc: false
 about:

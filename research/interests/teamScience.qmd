@@ -1,0 +1,13 @@
+---
+title: "Solutions-oriented interdisciplinary research"
+sortby: "103"
+subtitle: "Working groups as a way to foster interdisciplinary research"
+image: teamScience.png
+image-title: "Tonkin Lab Retreat 2024"
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+

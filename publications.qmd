@@ -1,15 +1,15 @@
 ---
 title: "Publications"
 toc: true
-image: assets/img/nature-paper.png
 listing:
   - id: featured
     contents: "publications/featured/*.qmd"
     type: grid
-    image-height: 225px
+    image-height: 250px
     grid-columns: 2
     fields: [image, title, subtitle]
     grid-item-align: center
+    grid-item-border: false
     sort: sortby
     field-display-names: 
       started: "Started"

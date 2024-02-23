@@ -1,0 +1,36 @@
+---
+title: "Ignacio Reyes"
+sortby: "202"
+subtitle: "PhD student"
+image: ignacioReyes.jpg
+started: "2021"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+  #   - icon: link
+  #     text: website
+  #     href: 
+  #   - icon: mortarboard
+  #     text: scholar
+  #     href: 
+  #   - icon: github
+  #     text: github
+  #     href: 
+    - text: "{{< iconify bi twitter-x>}}"
+      href: https://twitter.com/IgReyeSainz
+  #   - text: "{{< iconify simple-icons researchgate >}} Researchgate"
+  #     href: 
+  #   - text: "{{< iconify simple-icons orcid >}} OrcID"
+  #     href:
+  #   - icon: envelope
+  #     text: email
+  #     href: mailto: 
+---
+
+My journey started at the Complutense University of Madrid, Spain, my country of origin, where I studied a BSc in Biology with a specialization in environmental biology. During my degree, I joined a fauna monitoring group where I developed a love for freshwater ecosystems, focusing on odonates. With them, I wrote my bachelor’s thesis about historic changes in wing morphology of males of *Sympetrum fonscolombii* using geometric morphometry. After my BSc, I was intrigued by how climate change is affecting biodiversity on a global scale, so I carried out an MSc in climate change at the University of Copenhagen, Denmark. There, I focused on macroecological and, more specifically, on freshwater ecosystem processes. My master’s thesis studied how European odonates’ thermal niches varied historically using the Community Temperature Index as a proxy for thermal niches and implementing machine learning models.
+
+I am deeply intrigued by how Anthropogenic accelerated climate change is affecting global biodiversity and how it is adapting and overcoming the impending challenges, particularly in freshwater ecosystems. Hopefully, this knowledge will help local, regional or global governments issue laws to protect these fragile and already damaged ecosystems. I am enthused about joining Jono’s lab as a Ph.D. student to do so. My project will focus on freshwater fish vulnerability under climate change and will also forecast this vulnerability into the future using projected emissions' scenarios.
+
+Interests: Climate change and biodiversity | Conservation biology | Stochastic and mechanistic modeling | Freshwater ecosystems
