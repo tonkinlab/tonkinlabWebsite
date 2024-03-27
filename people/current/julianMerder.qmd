@@ -1,0 +1,32 @@
+---
+title: "Julian Merder"
+sortby: "104"
+subtitle: "*Incoming* Postdoctoral Fellow"
+# image: 
+started: "2024"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+#  links:
+    # - icon: link
+    #   text: website
+    #   href: https://hrlai.netlify.app/
+    # - icon: mortarboard
+    #   text: scholar
+    #   href: https://scholar.google.com/citations?user=g9SWxxcAAAAJ&hl=en&oi=ao
+    # - icon: github
+    #   text: github
+    #   href: https://github.com/hrlai
+    # - text: "{{< iconify bi twitter-x>}}"
+    #   href:
+    # - text: "{{< iconify simple-icons researchgate >}} Researchgate"
+    #   href: https://www.researchgate.net/profile/Hao-Ran-Lai
+    # - text: "{{< iconify simple-icons orcid >}} OrcID"
+    #   href:
+    # - icon: envelope
+    #   text: email
+    #   href: mailto:haoran.lai@canterbury.ac.nz 
+---
+
+Starting June 2024. 

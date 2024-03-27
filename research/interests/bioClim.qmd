@@ -1,0 +1,13 @@
+---
+title: "Biodiversity-climate nexus"
+sortby: "105"
+subtitle: ""
+image: bioClim.png
+image-title: "Global map of land surface runoff (mm year−1), based on long-term (1971–2000) averages, highlighting existing water stressed regions at risk of further climate change. Data were sourced from the HydroATLAS database (Linke et al., 2019)."
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+Biodiversity loss and climate change are two of the most pressing issues of our time and are fundamentally intertwined. Climate change is a major driver of biodiversity loss, and biodiversity is a key component of the Earth system that influences climate. The biodiversity-climate nexus is a complex and multifaceted relationship that is not yet fully understood. This research interest area focuses on understanding the interactions between biodiversity and climate change, and how these interactions can be managed to promote sustainable development and conservation. 
