@@ -10,6 +10,17 @@ about:
   template: marquee
 ---
 
+## Broad research topics
+Our interests are diverse and include the following topics:  
+- Flow-ecology relationships and environmental flows  
+- The organisation of biodiversity in river networks  
+- The drivers of success or failure in freshwater ecosystem restoration  
+- The effects of climate change on freshwater biodiversity and ecosystem services  
+- Flow management and river restoration under hydroclimatic nonstationarity  
+- Interactions among native and non-native fishes under changing environmental conditions  
+- The importance and consequences of giving rivers room to move
+
+We use a combination of field studies, experiments, modelling and data synthesis to address these questions.
 
 ## Freshwater biodiversity
 Freshwater ecosystems are among the most threatened ecosystems on earth. They are home to a disproportionately high number of species and provide essential ecosystem services to human societies. Rivers, in particular, are spatially organised into hierarchical dendritic networks. This unique physical structure and the associated directionality of flows sets them apart from most other environments by regulating the dispersal of resident biota and therefore the distribution of biodiversity. Our research aims to understand the drivers of freshwater biodiversity from population to meta-ecosystem scales and to identify management levers to restore and conserve biodiversity and water resources. 
@@ -20,15 +31,6 @@ Dams continue to heavily modify river flow regimes (sequences of floods and drou
 ## Restoration
 Contemporary ecosystem management is guided by the principle of embracing the historical range of environmental variation when setting restoration targets for degraded systems. By pushing systems away from their historical envelope of variability, rapid climate change is increasingly putting this approach into question. In recent decades, increasing emphasis has been placed on the restoration of freshwater ecosystems globally. Despite significant expenditures, projects often do not meet their goals of restoring biodiversity. We analyse datasets to uncover the drivers of success or failure, including the role of dispersal and metacommunity dynamics. We use models to forecast the potential outcomes of restorative or other human interventions on biodiversity into an uncertain hydro-climatic future.
 
-## Broad research topics
-We use a combination of field studies, experiments, modelling and data synthesis to address these questions. Our interests are diverse and include the following topics:  
-- Flow-ecology relationships and environmental flows  
-- The organisation of biodiversity in river networks  
-- The drivers of success or failure in freshwater ecosystem restoration  
-- The effects of climate change on freshwater biodiversity and ecosystem services  
-- Flow management and river restoration under hydroclimatic nonstationarity  
-- Interactions among native and non-native fishes under changing environmental conditions  
-- Braided river ecology and the importance of giving rivers room to move
 
 
 
