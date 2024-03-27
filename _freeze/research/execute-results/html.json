@@ -1,0 +1,15 @@
+{
+  "hash": "cb013af46fb245b2b510fbf0e400c948",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Research\"\ntoc: false\nlisting:\n  - id: interests\n    contents: \"research/interests/*.qmd\"\n    type: grid\n    image-height: 250px\n    grid-columns: 3\n    fields: [image, title]\n    grid-item-align: center\n    grid-item-border: false\n    sort: sortby\n    field-display-names: \n      started: \"Started\"\n#page-layout: full\n---\n\n\n<style>\n  .card-img {\n border-radius: 50%;\n}\n</style>\n\nOur research is increasingly diversified but remains focused on understanding and predicting the dynamics of ecological systems, and using this information to effect change. We continue to do basic research, combining theory and experiments with data analysis and synthesis. However, we are passionate about appling this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. Our research can be broadly divided into the following areas (click through for more information). \n\n<br><br>\n\n\n\n\n:::{#interests}\n:::\n\n\n\n\n\n\n<br><br><br>\n\n<center>\n\nProudly supported by:\n\n\n![](assets/img/funders/asp.png){height=80px}![](assets/img/funders/ba.jpg){height=80px}![](assets/img/funders/doc.png){height=80px}![](assets/img/funders/mbie.jpg){height=80px}![](assets/img/funders/rdf.jpg){height=80px}![](assets/img/funders/tpm.jpeg){height=80px}![](assets/img/funders/uclogo-black.jpg){height=80px}![](assets/img/funders/wdc.png){height=80px}\n\n\n<br>\n\n</center>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
