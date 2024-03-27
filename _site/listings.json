@@ -6,6 +6,15 @@
     ]
   },
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/featured/koerich23forecasting.html",
+      "/publications/featured/tonkin18flow.html",
+      "/publications/featured/tonkin19prepare.html",
+      "/publications/featured/tonkin21design.html"
+    ]
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/research/interests/envVariability.html",
@@ -42,15 +51,6 @@
       "/people/alumni/elizabethDeJongh.html",
       "/people/alumni/arekAspinwall.html",
       "/people/alumni/oliviaHore.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/featured/koerich23forecasting.html",
-      "/publications/featured/tonkin18flow.html",
-      "/publications/featured/tonkin19prepare.html",
-      "/publications/featured/tonkin21design.html"
     ]
   }
 ]

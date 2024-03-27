@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Tonkin Lab website</title>
-<link>https://tonkinlab.org/blog.html</link>
-<atom:link href="https://tonkinlab.org/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://jade-salmiakki-454267.netlify.app/blog.html</link>
+<atom:link href="https://jade-salmiakki-454267.netlify.app/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
 <lastBuildDate>Tue, 26 Mar 2024 11:00:00 GMT</lastBuildDate>
 <item>
   <title>Welcome</title>
   <dc:creator>Jono Tonkin</dc:creator>
-  <link>https://tonkinlab.org/posts/welcome/</link>
+  <link>https://jade-salmiakki-454267.netlify.app/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -22,7 +22,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://tonkinlab.org/assets/img/LabRetreat-28.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jade-salmiakki-454267.netlify.app/assets/img/LabRetreat-28.jpg" class="img-fluid figure-img"></p>
 <figcaption>2022 lab retreat at Cass Field Station. Image credit: AJ Gillis</figcaption>
 </figure>
 </div>
@@ -31,7 +31,7 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://tonkinlab.org/posts/welcome/</guid>
+  <guid>https://jade-salmiakki-454267.netlify.app/posts/welcome/</guid>
   <pubDate>Tue, 26 Mar 2024 11:00:00 GMT</pubDate>
 </item>
 </channel>
