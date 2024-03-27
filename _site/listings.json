@@ -2,13 +2,63 @@
   {
     "listing": "/people.html",
     "items": [
-      "/people/current/tonkinJonathan.html"
+      "/people/current/jonathanTonkin.html",
+      "/people/current/anneMcleod.html",
+      "/people/current/haoranLai.html",
+      "/people/current/julianMerder.html",
+      "/people/current/gabrielleKoerich.html",
+      "/people/current/ignacioReyes.html",
+      "/people/current/daniHernandez.html",
+      "/people/current/anthonyGillis.html",
+      "/people/current/liWang.html",
+      "/people/current/christinaMccabe.html",
+      "/people/current/roryLennox.html",
+      "/people/current/roseFoster.html",
+      "/people/current/justinRogers.html",
+      "/people/current/hollyHarris.html",
+      "/people/current/naomiHeller.html",
+      "/people/current/ilyaShabanov.html",
+      "/people/current/portiaSharp.html",
+      "/people/alumni/andreaTabi.html",
+      "/people/alumni/jackAnderson.html",
+      "/people/alumni/sarahSeeley.html",
+      "/people/alumni/elizabethDeJongh.html",
+      "/people/alumni/arekAspinwall.html",
+      "/people/alumni/oliviaHore.html"
     ]
   },
   {
     "listing": "/publications.html",
     "items": [
-      "/people/current/tonkinJonathan.html"
+      "/publications/featured/koerich23forecasting.html",
+      "/publications/featured/tonkin18flow.html",
+      "/publications/featured/tonkin19prepare.html",
+      "/publications/featured/tonkin21design.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/people.html",
+      "/publications.html",
+      "/research.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/interests/envVariability.html",
+      "/research/interests/forecasting.html",
+      "/research/interests/metacommunities.html",
+      "/research/interests/freshwater.html",
+      "/research/interests/bioClim.html",
+      "/research/interests/teamScience.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/welcome/index.html"
     ]
   }
 ]

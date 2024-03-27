@@ -4,15 +4,15 @@
 }
 
 .navbar-logo {
-    max-height: 44px;
-    max-width: 190px;
-    height: 44px;
-    width: 190px;
-    margin-top: -9px;
+    max-height: 75px;
+    max-width: 145px;
+    height: 75px;
+    width: 145px;
 }
 
 .hero {
   width: 100%;
+  max-width: 100%;
   max-height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -25,3 +25,58 @@
   max-height: 700px;
   overflow-y: auto;
 }
+
+.riv-background {
+  background-image: url("assets/img/TwitterBanner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-story-img p {
+  margin-bottom: 0;
+}
+
+.content-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+}
+
+.top-story {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.top-story img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.top-story-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  // font-weight: bold;
+  font-size: larger;
+}
+
+
+
+.top-story-img p {
+  margin-bottom: 0;
+}
+
+/*.card-img {
+/* border-radius: 50%;
+/*}
+
+
+
+
+

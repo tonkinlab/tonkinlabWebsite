@@ -37,19 +37,17 @@ about:
 
 <h3>Welcome to the Tonkin Lab at the University of Canterbury, New Zealand, where we do <i>biodiversity science for a changing world</i></h3>
 
-<br> <!-- <i>We tackle fundamental questions in ecology, including...</i> -->
+ <!-- <i>We tackle fundamental questions in ecology, including...</i> -->
 
 <!-- <p style="text-align: center;"> -->
 
 <p><i>We tackle fundamental questions in ecology, including how populations and communities vary in space & time, how they resist and recover from change, and how they might look in a future world. We combine theory and experiments with data analysis and synthesis. We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries.</i></p>
 
-<button class="btn btn-primary" type="button">
-
-<i>Check our research {{< iconify ph arrow-right-bold >}}</i>
-
+<button class="btn btn-light" type="button">
+<a href="research.qmd" style="color:inherit" class="text-decoration-none"><i>Check our research {{< iconify ph arrow-right-bold >}}</i></a>
 </button>
 
-<br><br><br>
+<br>
 
 <!-- ::: {.grid} -->
 
@@ -80,18 +78,24 @@ about:
 <!-- ::: -->
 
 <!-- ::: -->
-
+<h3>We are motivated to address---and provide solutions for---major challenges at the <i>biodiversity-climate nexus</i></h3>
+<button class="btn btn-light" type="button">
+<a href="blog.qmd" style="color:inherit" class="text-decoration-none"><i>Read our blog {{< iconify ph arrow-right-bold >}}</i></a>
+</button>
+<br>
 ![Recent Tonkin Lab writing retreat to Westport Field Station. Missing: H. R. Lai, A. McLeod, A. Tabi, I. Reyes-Sainz. Image credit: AJ Gillis](assets/img/retreat3.jpg){.lightbox} <br><br>
+
 
 <p><i> We are a team of interdisciplinary and collaborative scientists. Our work spans the theoretical-applied divide. We are committed to asking basic ecological questions, but we are also highly motivated by grand societal challenges, such as the joint biodiversity loss-climate change challenge. </i></p>
 
-<button class="btn btn-primary" type="button">
-
-<i>Meet the team {{< iconify ph arrow-right-bold >}}</i>
-
+<button class="btn btn-light" type="button">
+<a href="people.qmd" style="color:inherit" class="text-decoration-none"><i>Meet the team {{< iconify ph arrow-right-bold >}}</i></a>
 </button>
 
+
 <br><br><br>
+
+
 
 <!-- <center> -->
 
@@ -284,7 +288,7 @@ Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūt
 
 <br><br><br>
 
-![](assets/img/vision.png){.lightbox} <br><br>
+<!-- ![](assets/img/vision.png){.lightbox} <br><br> -->
 
 
 <center>

@@ -1,12 +1,18 @@
 project:
   type: website
 website:
+  title: "Tonkin Lab website"
+  site-url: https://tonkinlab.org/
   page-navigation: true
+  google-analytics: "G-D2HGF12X7H"
   back-to-top-navigation: true
-  twitter-card: true
+  twitter-card:
+    creator: "@jdtonkin"
   favicon: assets/img/icon-512.png
+  open-graph: true
   navbar:
     #background: transparent
+    search: true
     logo: /assets/img/logo-new-2.png
     title: false
     right:
@@ -16,10 +22,16 @@ website:
         text: People
       - research.qmd
       - publications.qmd
+      - blog.qmd
       - opportunities.qmd
+      # - icon: rss
+      #   href: index.xml
   page-footer:
     left:  Made with {{< iconify fa-brands r-project >}} and [quarto](https://quarto.org)
-    right: 2024 {{< iconify fa copyright >}} Jonathan D. Tonkin
+    right:
+      - icon: github
+        href: https://github.com/tonkinlab
+      - 2024 {{< iconify fa copyright >}} J. D. Tonkin.
 format:
   html:
     theme: flatly
@@ -28,3 +40,4 @@ format:
 #    page-layout: full
 editor:
   mode: source
+

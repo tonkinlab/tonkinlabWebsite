@@ -1,13 +1,14 @@
 ---
 title: "Solutions-oriented interdisciplinary research"
-sortby: "103"
+sortby: "106"
 subtitle: "Working groups as a way to foster interdisciplinary research"
 image: teamScience.png
-image-title: "Tonkin Lab Retreat 2024"
+image-title: "Tonkin Lab Retreat 2024. Photos: AJ Gillis."
 toc: false
 about:
   id: research-interest
   template: marquee
 ---
 
+This is an emerging interest for the group, and we are excited to be working on it. We are motivated to translate our research to on-the-ground solutions. By working in interdisciplinary teams, we can leverage our expertise to address complex problems. Our association with [Te Pūnaha Matatini](https://www.tepunahamatatini.ac.nz/) has been instrumental in fostering these collaborations.
 

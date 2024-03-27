@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -65,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta name="twitter:title" content="Jonathan D. Tonkin">
 <meta name="twitter:description" content="Lab PI">
-<meta name="twitter:image" content="tonkinJonathan.jpg">
+<meta name="twitter:image" content="tonkinJonathan.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -73,11 +80,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/img/logo-wide-sub.png" alt="" class="navbar-logo">
+    <img src="../../assets/img/logo-new-2.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -87,25 +94,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../opportunities.html" rel="" target="">
- <span class="menu-text">Opportunities</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../opportunities.html"> 
+<span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -119,16 +130,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Current team</li>
-    <li class="breadcrumb-item active" aria-current="page">Jonathan D. Tonkin</li>
-  </ol>
-</nav>
-<div class="quarto-about-jolla">
-  <img src="tonkinJonathan.jpg" class="about-image
+
+<!-- ```{=html} -->
+<!-- <nav aria-label="breadcrumb"> -->
+<!--   <ol class="breadcrumb"> -->
+<!--     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li> -->
+<!--     <li class="breadcrumb-item"><a href="../../people.html">People</a></li> -->
+<!--     <li class="breadcrumb-item active">Current team</li> -->
+<!--     <li class="breadcrumb-item active" aria-current="page">Jonathan D. Tonkin</li> -->
+<!--   </ol> -->
+<!-- </nav> -->
+<!-- ``` -->
+<div class="quarto-about-jolla content">
+  <img src="tonkinJonathan.jpeg" class="about-image
   round " style="height: 15em; width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -154,8 +168,7 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">github</span>
   </a>
   <a href="https://www.twitter.com/jdtonkin" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
+     <span class="about-link-text"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></span>
   </a>
   <a href="https://www.researchgate.net/profile/Jonathan_Tonkin" class="about-link" rel="" target="">
      <span class="about-link-text"><iconify-icon inline="" icon="simple-icons:researchgate"></iconify-icon> Researchgate</span>
@@ -171,11 +184,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <p>My academic journey has taken me around the world, from New Zealand to China (lecturer) to Germany (postdoc) to the USA (postdoc) and back to New Zealand.</p>
-<p>I started with a PhD at <a href="http://www.massey.ac.nz/">Massey University</a> in New Zealand working with Russell Death, Mike Joy, and Kevin Collier looking at the interaction between productivity and disturbance on structuring stream invertebrate diversity patterns. I followed that up with a job teaching Environmental Management and Marine Studies at <a href="http://www.boppoly.ac.nz/">Bay of Plenty Polytechnic</a> in Tauranga, New Zealand. I then spent one exciting year at <a href="http://www.xjtlu.edu.cn/en/">Xi’an Jiaotong-Liverpool University</a> in Suzhou, China lecturing in Environmental Science. I followed that up with two years at <a href="http://www.senckenberg.de/root/index.php?page_id=71">Senckenberg</a> Research Institute and Natural History Museum in Germany, based in the River Ecology and Conservation <a href="http://www.senckenberg.de/root/index.php?page_id=5217&amp;organisation=true&amp;institutID=1&amp;abteilungID=26">Department</a> in the lovely little town of Gelnhausen, where I worked with Peter Haase and Sonja Jaehnig. I then moved to the USA to spend three fantastic years at <a href="http://oregonstate.edu/">Oregon State University</a> in Corvallis, Oregon working with <a href="https://lytlelab.science.oregonstate.edu/">Dave Lytle</a>. Finally, I managed to land a postdoc with <a href="https://www.tylianakislab.org/">Jason Tylianakis</a> at <a href="https://www.canterbury.ac.nz/">the University of Canterbury</a>, which I cut short due to receiving a <a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/">Rutherford Discovery Fellowship</a> (<a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/rutherford-discovery-fellowship-recipients/new-rsnz-content-2">project summary</a>).</p>
+<p>I started with a PhD at <a href="http://www.massey.ac.nz/">Massey University</a> in New Zealand working with Russell Death, Mike Joy, and Kevin Collier looking at the interaction between productivity and disturbance on structuring stream invertebrate diversity patterns. I followed that up with a job teaching Environmental Management and Marine Studies at <a href="http://www.boppoly.ac.nz/">Bay of Plenty Polytechnic</a> in Tauranga, New Zealand. I then spent a year at <a href="http://www.xjtlu.edu.cn/en/">Xi’an Jiaotong-Liverpool University</a> in Suzhou, China lecturing in Environmental Science. I followed that with two years at <a href="http://www.senckenberg.de/root/index.php?page_id=71">Senckenberg</a> Research Institute and Natural History Museum in Germany, based in the River Ecology and Conservation <a href="http://www.senckenberg.de/root/index.php?page_id=5217&amp;organisation=true&amp;institutID=1&amp;abteilungID=26">Department</a> in the lovely little town of Gelnhausen, where I worked with Peter Haase and Sonja Jaehnig. I then moved to the USA to spend three years at <a href="http://oregonstate.edu/">Oregon State University</a> in Corvallis, Oregon working with <a href="https://lytlelab.science.oregonstate.edu/">Dave Lytle</a>. Finally, I managed to land a postdoc with <a href="https://www.tylianakislab.org/">Jason Tylianakis</a> at <a href="https://www.canterbury.ac.nz/">the University of Canterbury</a>, which I cut short due to receiving a <a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/">Rutherford Discovery Fellowship</a> (<a href="https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/rutherford-discovery-fellowships/rutherford-discovery-fellowship-recipients/new-rsnz-content-2">project summary</a>).</p>
 <section id="academic-appointments" class="level2">
 <h2 data-anchor-id="academic-appointments">Academic appointments</h2>
 <ul>
 <li><strong>2023-Present:</strong> Associate Professor at <a href="https://www.canterbury.ac.nz/">the University of Canterbury</a>, Christchurch, New Zealand.<br>
+</li>
+<li><strong>2019-Present:</strong> Rutherford Discovery Fellow at <a href="https://www.canterbury.ac.nz/">the University of Canterbury</a>, Christchurch, New Zealand.<br>
 </li>
 <li><strong>2019-2022:</strong> Senior Lecturer at <a href="https://www.canterbury.ac.nz/">the University of Canterbury</a>, Christchurch, New Zealand.<br>
 </li>
@@ -200,27 +215,25 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-anchor-id="present">Present</h3>
 <ul>
 <li><a href="https://esajournals.onlinelibrary.wiley.com/journal/15409309">Frontiers in Ecology &amp; the Environment</a></li>
-<li><a href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2427">Freshwater Biology</a></li>
 </ul>
 </section>
 <section id="historical" class="level3">
 <h3 data-anchor-id="historical">Historical</h3>
 <ul>
+<li><a href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2427">Freshwater Biology</a></li>
 <li><a href="https://onlinelibrary.wiley.com/journal/14429993">Austral Ecology</a></li>
 <li><a href="https://peerj.com/">PeerJ</a></li>
 </ul>
-<p>role: Associate Professor &amp; Rutherford Discovery Fellow</p>
 </section>
 </section>
-<section id="organizationsaffiliations" class="level1">
-<h1>Organizations/Affiliations</h1>
-<p>organizations: - name: University of Canterbury url: “https://www.canterbury.ac.nz/”</p>
-</section>
-<section id="short-bio-displayed-in-user-profile-at-end-of-posts" class="level1">
-<h1>Short bio (displayed in user profile at end of posts)</h1>
-<p>bio:</p>
-<p>interests: - Community ecology - Flow-ecology relationships - Ecological networks - Ecological forecasting</p>
-<p>education: courses: - course: PhD in Ecology institution: Massey University, NZ year: 2012 - course: BSc (Hons) in Ecology institution: Massey University, NZ year: 2006 - course: BSc in Ecology institution: Massey University, NZ year: 2005</p>
+<section id="recent-awards" class="level2">
+<h2 data-anchor-id="recent-awards">Recent awards</h2>
+<ul>
+<li>NZ Prime Minister’s McDiarmid Emerging Scientist Prize (2022)</li>
+<li>University of Canterbury Early and Emerging Career Researcher Award (2020)<br>
+</li>
+<li>New Zealand Freshwater Sciences Society Early Career Researcher Award (2018)</li>
+</ul>
 
 
 
@@ -299,10 +312,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -312,8 +324,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -326,6 +347,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -369,6 +509,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -394,6 +535,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -454,6 +621,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Made with <iconify-icon inline="" icon="fa-brands:r-project"></iconify-icon> and <a href="https://quarto.org">quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>2024 <iconify-icon inline="" icon="fa:copyright"></iconify-icon> Jonathan D. Tonkin</p>
+</div>
+  </div>
+</footer>
+
 
 
 
