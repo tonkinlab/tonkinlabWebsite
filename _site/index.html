@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tonkin Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/img/icon-512.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-D2HGF12X7H"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-D2HGF12X7H', { 'anonymize_ip': true});
+</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(assets/img/TwitterBanner2.png);
+background-size: cover;
+      }
+</style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  background-position-y: bottom;
+  background-position-x: right;
+  height: 500px;
+}
+</style>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Tonkin Lab">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Tonkin Lab website">
+<meta name="twitter:title" content="Tonkin Lab">
+<meta name="twitter:description" content="Biodiversity science for a changing world">
+<meta name="twitter:image" content="https://tonkinlab.org//assets/img/logo-new-2.png">
+<meta name="twitter:creator" content="@jdtonkin">
+<meta name="twitter:image-height" content="464">
+<meta name="twitter:image-width" content="913">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/img/logo-new-2.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./opportunities.html"> 
+<span class="menu-text">Opportunities</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><br></h1>
+                      </div>
+  </div>
+  <div class="quarto-title-meta">
+    </div>
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<div class="quarto-about-solana column-body content">
+  <div class="about-entity">
+    <div class="entity-contents">
+       
+      <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
+<!-- ::: {.column-screen} -->
+<!-- ![](assets/img/cover-nw.png) -->
+<!-- ::: -->
+<!-- <h3 style="text-align: center;"> -->
+<h3>
+Welcome to the Tonkin Lab at the University of Canterbury, New Zealand, where we do <i>biodiversity science for a changing world</i>
+</h3>
+<p><!-- <i>We tackle fundamental questions in ecology, including...</i> --></p>
+<!-- <p style="text-align: center;"> -->
+<p>
+<i>We tackle fundamental questions in ecology, including how populations and communities vary in space &amp; time, how they resist and recover from change, and how they might look in a future world. We combine theory and experiments with data analysis and synthesis. We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries.</i>
+</p>
+<button class="btn btn-light" type="button">
+<a href="./research.html" style="color:inherit" class="text-decoration-none"><i>Check our research <iconify-icon inline="" icon="ph:arrow-right-bold"></iconify-icon></i></a>
+</button>
+<p><br></p>
+<!-- ::: {.grid} -->
+<!-- ::: {.g-col-8} -->
+<!-- ![](assets/img/retreat1.jpg) -->
+<!-- ::: -->
+<!-- ::: {.g-col-4} -->
+<!-- <p> -->
+<!-- <i> -->
+<!-- We are a team of interdisciplinary and collaborative scientists. Our work spans the theoretical-applied divide. We are committed to asking basic ecological questions, but we are also highly motivated by grand societal challenges, such as the joint biodiversity loss-climate change challenge.  -->
+<!-- </i> -->
+<!-- </p> -->
+<!--   <button class="btn btn-primary" type="button"> -->
+<!-- <i>Meet the team </i> -->
+<!-- </button> -->
+<!-- ::: -->
+<!-- ::: -->
+<h3>
+We are motivated to address—and provide solutions for—major challenges at the <i>biodiversity-climate nexus</i>
+</h3>
+<button class="btn btn-light" type="button">
+<a href="./blog.html" style="color:inherit" class="text-decoration-none"><i>Read our blog <iconify-icon inline="" icon="ph:arrow-right-bold"></iconify-icon></i></a>
+</button>
+<p><br> <a href="assets/img/retreat3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Recent Tonkin Lab writing retreat to Westport Field Station. Missing: H. R. Lai, A. McLeod, A. Tabi, I. Reyes-Sainz. Image credit: AJ Gillis"><img src="assets/img/retreat3.jpg" class="img-fluid" alt="Recent Tonkin Lab writing retreat to Westport Field Station. Missing: H. R. Lai, A. McLeod, A. Tabi, I. Reyes-Sainz. Image credit: AJ Gillis"></a> <br><br></p>
+<p>
+<i> We are a team of interdisciplinary and collaborative scientists. Our work spans the theoretical-applied divide. We are committed to asking basic ecological questions, but we are also highly motivated by grand societal challenges, such as the joint biodiversity loss-climate change challenge. </i>
+</p>
+<button class="btn btn-light" type="button">
+<a href="./people.html" style="color:inherit" class="text-decoration-none"><i>Meet the team <iconify-icon inline="" icon="ph:arrow-right-bold"></iconify-icon></i></a>
+</button>
+<p><br><br><br></p>
+<!-- <center> -->
+<!-- ::: {.grid} -->
+<!-- ::: {.g-col-4} -->
+<!-- <div class="d-grid gap-2"> -->
+<!--   <button class="btn btn-primary" type="button" style="width:170px"> -->
+<!--   <i>Our research </i> -->
+<!-- </button> -->
+<!-- </div> -->
+<!-- ::: -->
+<!-- ::: {.g-col-4} -->
+<!-- <div class="d-grid gap-2"> -->
+<!--   <button class="btn btn-primary" type="button" style="width:170px"> -->
+<!-- <i>Meet the team </i>   -->
+<!-- </button> -->
+<!-- </div> -->
+<!-- ::: -->
+<!-- ::: {.g-col-4} -->
+<!-- <div class="d-grid gap-2"> -->
+<!--   <button class="btn btn-primary" type="button" style="width:170px"> -->
+<!-- <i>Meet the team </i>   -->
+<!--     </button> -->
+<!-- </div> -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- </center> -->
+<!-- <i>We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries.</i> <br><br> -->
+<!-- :::{#test} -->
+<!-- ::: -->
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">how populations and communities vary in space & time</p> -->
+<!--   </blockquote> -->
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">how they resist and recover from change</p> -->
+<!--   </blockquote> -->
+<!--   <blockquote class="blockquote"> -->
+<!--     <p class="mb-0">and how they might look in a future world.</p> -->
+<!--   </blockquote> -->
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/Lr5wEkHvXAw?si=kbUvhJf3N0roIASS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<div class="d-grid gap-2">
+<button class="btn btn btn-light" type="button">
+<p>Jono was recently honoured with New Zealand’s Prime Minister’s Te Puiaki Kaipūtaiao Maea MacDiarmid Emerging Scientist Prize for 2022. Details <a href="https://pmscienceprizes.org.nz/2022-winner-of-te-puiaki-kaiputaiao-maea-the-macdiarmid-emerging-scientist-prize/">here</a>.</p>
+</button>
+</div>
+<p><br><br></p>
+<section id="news" class="level1">
+<h1>News</h1>
+<div class="scrolling">
+<p><strong>Feb 2024 » We’re back from our third successful lab retreat.</strong> Ten of us went over to the Westport Field Station for a week of science, writing, and fun. This time was a little different. We went there with a specific purpose of writing a group paper together. Stay tuned for more.</p>
+<p><strong>Dec 2023 » Jono publishes long-awaited paper on ‘matrix community models for ecology and evolution’.</strong> Dave Lytle and Jono are excited to share this work with the world after thinking long about the topic. Find the paper in npj Biodiversity <a href="https://www.nature.com/articles/s44185-023-00031-5">here</a> and find the pdf on the publications page.</p>
+<p><strong>Nov 2023 » Holly publishes book chapter.</strong> Congratulations to Holly for publishing a book chapter on multiscale ecological resilience in braided rivers. Find the chapter <a href="https://www.sciencedirect.com/science/article/abs/pii/B9780323917162000145">here</a> and find the pdf on the publications page.</p>
+<p><strong>Oct 2023 » New horizon scan paper on climate change impacts on Aotearoa New Zealand.</strong> Jono was part of a fun collaboration as part of Te Pūnaha Matatini Centre of Research Excellence. Find the paper <a href="https://www.tandfonline.com/doi/abs/10.1080/03036758.2023.2267016">here</a> and find the pdf on the publications page.</p>
+<p><strong>June 2023 » We’re back from our second successful lab retreat.</strong> Ten of us went to the Cass Field Station and had a great time. We had a mix of science, brainstorming, shared cooking and general fun.</p>
+<p><strong>June 2023 » Tonkin Lab in Australia.</strong> Several of the lab went across to Brisbane for the joint US, Australian and New Zealand Freshwater Sciences Society conference. We had a great time and learned a lot. Some of us even spent a few days on the Great Barrier Reef.</p>
+<p><strong>May 2023 » Jono wins major award.</strong> Jono was recently honoured by receiving New Zealand’s Prime Minister’s Te Puiaki Kaipūtaiao Maea MacDiarmid Emerging Scientist Prize for 2022. Details can be found here <a href="https://pmscienceprizes.org.nz/2022-winner-of-te-puiaki-kaiputaiao-maea-the-macdiarmid-emerging-scientist-prize/">here</a>.</p>
+<p><strong>May 2023 » Congratulations Rory!</strong> Rory recently handed in his Master’s thesis on trout galaxiid interactions in response to major floods. Congratulations on a great thesis, Rory!</p>
+<p><strong>Feb.&nbsp;2023 » Welcome Li!</strong> We’re delighted to welcome Li Wang to the group as a PhD student working on host-parasitoid coevolution as part of a project funded by Bioprotection Aotearoa working with Jason Tylianakis and I! Great to have you aboard, Li!</p>
+<p><strong>Jan.&nbsp;2023 » Jono promoted to Associate Professor.</strong> Jono has recently been promoted to Associate Professor. Thanks to all the amazing collaborators and mentors who helped him get there.</p>
+<p><strong>November 2022 » Welcome Jack!</strong> Jack Anderson has joined the group as a Te Punaha Matatini-funded summer student working with Anne McLeod! Great to have you aboard, Jack!</p>
+<p><strong>November 2022 » Welcome Andi!</strong> We’re delighted to welcome Andrea Tabi to the group as a Postdoctoral Fellow working on our Te Punaha Matatini freshwater forecasting project! Great to have you aboard, Andi!</p>
+<p><strong>October 2022 » Welcome Anthony!</strong> We’re delighted to welcome Anthony Gillis to the group as a PhD student working on marine species interaction networks! Great to have you aboard, AJ!</p>
+<p><strong>July 2022 » Gabi’s first PhD chapter published in TREE!</strong> Congrats on the paper, Gabi. Gabi led a stellar effort on forecasting the future of life in Antarctica in Trends in Ecology and Evolution. Paper <a href="https://doi.org/10.1016/j.tree.2022.07.009">here</a> and pdf <a href="./publication/koerich-22-forecasting/">here</a></p>
+<p><strong>June 2022 » Postdoc position available!</strong> We’re looking for a Postdoctoral Fellow to participate in a research project, Achieving sustainable and resilient river ecosystems in Aotearoa under climate change, funded by Te Pūnaha Matatini. Your role will focus on forecasting freshwater fish community responses to climate change and to generate near-term forecasts and long-term projections of freshwater fish community responses to changing flow regimes. More details <a href="./open">here</a> and <a href="https://jobs.canterbury.ac.nz/jobdetails/ajid/NQfU7/Postdoctoral-Fellow-Quantitative-Freshwater-Ecology,8304">here</a>.</p>
+<p><strong>April 2022 » Welcome Elizabeth!</strong> We’re delighted to welcome Elizabeth de Jongh to the group as a Postgraduate Scholar!</p>
+<p><strong>April 2022 » Welcome Dani!</strong> We’re delighted to officially welcome Dani Hernandez to the group as a PhD student! Great to have you aboard, Dani!</p>
+<p><strong>March 2022 » Jono joining the editorial board of Frontiers in Ecology and the Environment.</strong> Jono is delighted to join the editorial board of Frontiers in Ecology and the Environment.</p>
+<p><strong>March 2022 » New PhD position available!</strong> Mads Thomsen and I are looking for a student for a project on uncovering the role of indirect species interactions in marine ecological networks in a warming world. And a reminder that Jason Tylianakis and I are looking for a student for a project on metacommunity and evolutionary drivers of resilience. Details: http://tonkinlab.org/open</p>
+<p><strong>Jan.&nbsp;2022 » New postdoc position available!</strong> We’re looking for a Postdoctoral Fellow to participate in a research project, Achieving sustainable and resilient river ecosystems in Aoteaora under climate change, funded by Te Pūnaha Matatini. Your role will focus on forecasting freshwater fish community responses to climate change and to generate near-term forecasts and long-term projections of freshwater fish community responses to changing flow regimes. More details <a href="./open">here</a> and <a href="https://jobs.canterbury.ac.nz/jobdetails/ajid/NQfU7/Post-Doctoral-Fellow-Te-P%C5%ABnaha-Matatini,8304">here</a>.</p>
+<p><strong>Jan.&nbsp;2022 » A new global agenda for advancing freshwater biodiversity research.</strong> Jono was recently involved in a large global effort to come up with a new agenda for freshwater biodiversity research. “The proposed agenda aims to advance freshwater biodiversity research globally as a critical step in improving coordinated actions towards its sustainable management and conservation.” See <a href="https://tonkinlab.org/publication/maasri-2021/">publication</a>. Thanks to Alain and Sonja for leading this important effort.</p>
+<p><strong>Dec.&nbsp;2021 » Welcome Nacho!</strong> We’re delighted to officially welcome Ignacio (Nacho) Reyes to the team as a PhD student. Nacho will be focusing on forecasting freshwater fish population and community responses to future change. Find Nacho <a href="https://tonkinlab.org/authors/i.-reyes/">here</a>.</p>
+<p><strong>Nov.&nbsp;2021 » Fish futures MBIE programme kicks off.</strong> We’re excited to have our recently funded Fish future MBIE Endeavour Programme kick off this month led by the Cawthron Institute. Fish futures: preparing for novel freshwater ecosystems is a five-year project that will address the increasing stress on Aotearoa New Zealand’s freshwater fish from pressures such as human activity, climate change, pollution and threats from other species.</p>
+<p><strong>Oct.&nbsp;2021 » New PhD position available!</strong> We have a PhD position currently available jointly with Jason Tylianakis. Check out our vacancies page for this position on metacommunity and evolutionary drivers of resilience.</p>
+<p><strong>Oct.&nbsp;2021 » Congratulations Arek!</strong> Congratulations to Arek Aspinwall who recently passed his Master’s project with flying colours.</p>
+<p><strong>Oct.&nbsp;2021 » New paper on applying metacommunity theory to river management</strong> Very happy to see this group paper led by Chris Patrick out on the application of metacommunity theory to the management of riverine ecosystems. Lots to be learned from metacommunity theory to help us manage freshwater systems better.</p>
+<p><strong>Jul.&nbsp;2021 » New positions available!</strong> We have two positions currently available in the same project: (working with Jason Tylianakis) one Postdoc and one PhD.</p>
+<p><strong>Jul.&nbsp;2021 » Jono on TVNZ Breakfast talking about the CBD Post-2020 Biodiversity Framework.</strong> Jono talked to John Campbell on Breakfast TV about the latest UN Convention on Biological Diversity’s draft Post-2020 Biodiversity Framework.</p>
+<p><strong>Jul.&nbsp;2021 » Welcome Gabrielle!</strong> We’re delighted to welcome Gabrielle Koerich to the team as a PhD student. Gabrielle will be working with Jono on forecasting species responses to climate change in the Ross Sea Region of Antarctica, as part of the Antarctic Science Platform.</p>
+<p><strong>Jun.&nbsp;2021 » Welcome Anne!</strong> We’re delighted to welcome Anne Mcleod to the team as a Postdoc. Anne will be collaborating with Jono on some exciting new community theory modelling spanning from metacommunity models to food web models to ecosystem models.</p>
+<p><strong>Jun.&nbsp;2021 » Paper out on hydropeaking effects in the Colorado River.</strong> Thanks to Erin for leading this great work!</p>
+<p><strong>May 2021 » New paper in Frontiers in Ecology and the Environment.</strong> Jono’s paper on designing flow regimes to support entire river ecosystems is now out in Frontiers. Thanks to the great coauthors: Dave Lytle, Julian Olden, Dave Merritt, Lindsay Reynolds and Jane Rogosch!</p>
+<p><strong>Apr.&nbsp;2021 » Opening PhD call up to international students.</strong> I have a new PhD position available on forecasting fish species vulnerability to climate change. Please see the opportunities page.</p>
+<p><strong>Feb.&nbsp;2021 » Several new publications added.</strong> Jono has been involved in several new papers that have come out (now uploaded to the website), including work highlighting the benefits of long-term spatially replicated datasets for advancing metacommunity theory and issues surrounding assigning causal drivers of long-term trends in insect abundances.</p>
+<p><strong>Oct.&nbsp;2020 » Bio-Protection Aotearoa and Te Pūnaha Matatini funded for eight years.</strong> Last week, the next round of NZ Centres of Research Excellence were announced. Jono is delighted that two of the CoREs he is involved in have been funded for the next eight years: Bio-Protection Aotearoa and Te Pūnaha Matatini. There will be new positions advertised here in the coming months.</p>
+<p><strong>Sept.&nbsp;2020 » Paper accepted in Global Change Biology.</strong> Jono has just had a co-authored paper on taxonomic homogenisation but functional differentiation among stream macroinvertebrate assemblages under climate change. This effort was led by Théophile Mouton. More soon.</p>
+<p><strong>Aug 2020 » Paper accepted in Frontiers in Ecology and the Environment.</strong> Jono has just had a paper on designing flow regimes to support entire river ecosystems accepted for publication in Frontiers in Ecology and the Environment. More soon.</p>
+<p><strong>June 2020 » New funding to forecast fish species response to changing flow regimes.</strong> Jono recently received funding to develop new models to forecast how native NZ fish will respond to climate-induced changes to flow regimes. Stay tuned for a new PhD advertisement coming soon.</p>
+<p><strong>Feb 2020 » Paper coming soon on conservation of aquatic macroinvertebrate biodiversity in tropical regions.</strong> This should be available in the next few weeks in <em>Aquatic Conservation: Marine and Freshwater Ecosystems</em>.</p>
+<p><strong>Dec 2019 » News piece on our Nature paper.</strong> Karla Lant at the Environmental Monitor recently published this really nice news piece on our river management perspective piece <a href="https://www.fondriest.com/news/river-management-on-a-changing-planet.htm">here</a>.</p>
+<p><strong>Oct 2019 » Permanent position.</strong> Jono received the news that he has a permanent position at the University of Canterbury in the fabulous School of Biological Sciences. He’s delighted to get to set down roots and build a flourishing research lab in his home country of New Zealand.</p>
+<p><strong>Sept 2019 » New Tonkin Lab website.</strong> Welcome to the new-look Tonkin Lab website. Keep your eyes peeled for upcoming opportunities to join the lab.</p>
+<p><strong>June 2019 » New paper in Nature.</strong> Our paper on preparing river ecosystems for an uncertain future came out in <a href="https://www.nature.com/articles/d41586-019-01877-1">Nature</a>. It was a real treat to work with such a great group of colleagues on this one: LeRoy Poff, Dave Lytle, Julian Olden, Nick Bond, Avril Horne, Albert Ruhi, Lindsay Reynolds and Dave Merritt.</p>
+<p><strong>April 2019 » New paper in Ecosphere.</strong> We have a new paper out in <a href="https://doi.org/10.1002/ecs2.2681">Ecosphere</a>. This is a multi-species demographic model that links native and nonnative species with river flow regimes in the Verde River, Arizona. Projecting the model beyond the survey data predicted a shift from a native dominant to a nonnative dominant community, which was linked to increasing drought frequency. Thanks very much for leading this effort, Jane!</p>
+<p><strong>Dec 2018 » Paper accepted in Sci. Tot. Env.</strong> We just had a paper accepted led by Peter Haase, Francesca Pilotto and Fengqing Li. This has been a long road, so it’s nice to see it through review. The title gives the central result: Moderate warming over the past 25 years has already reorganized stream invertebrate communities.</p>
+<p><strong>Dec 2018 » Paper accepted in River Research and Applications.</strong> We just had a paper accepted on: The three Rs of river ecosystem resilience: Resources, Recruitment and Refugia. Thanks to Kris Van Looy for leading this. This originated at a workshop in Berlin back in 2015, so it’s nice to see it come through in the end.</p>
+<p><strong>Dec 2018 » Awarded the inaugural NZFSS Early Career Researcher Award.</strong> Last week, Jono received the inaugural Early Career Researcher Award by the New Zealand Freshwater Sciences Society. Jono is very grateful to both the Society for giving him the award and the many colleagues that have helped him to get where he is today. It meant he got to share his past few years of research with the society by way of a keynote address.</p>
+<p><strong>Oct 2018 » Awarded a Rutherford Discovery Fellowship.</strong> Jono is delighted and honoured to receive a Rutherford Discovery Fellowship from the Royal Society of New Zealand Te Apārangi. The title of his 5-year programme is “Rethinking ecological networks in changing environments”. The fellowship will allow him to build his research programme here in New Zealand after several years overseas, and provide the time to tackle major environmental challenges in a way that is not necessarily possible over shorter timescales. News releases <a href="https://royalsociety.org.nz/news/2018-rutherford-discovery-fellowships-to-accelerate-research-careers-announced/">here</a> and <a href="https://www.canterbury.ac.nz/news/2018/uc-ecologist-awarded-800000-to-tackle-major-environmental-challenges.html">here</a>.</p>
+</div>
+<p><br><br><br></p>
+<!-- ![](assets/img/vision.png){.lightbox} <br><br> -->
+<center>
+<p>Proudly supported by:</p>
+<p><img src="assets/img/funders/asp.png" height="80"><img src="assets/img/funders/ba.jpg" height="80"><img src="assets/img/funders/doc.png" height="80"><img src="assets/img/funders/mbie.jpg" height="80"><img src="assets/img/funders/rdf.jpg" height="80"><img src="assets/img/funders/tpm.jpeg" height="80"><img src="assets/img/funders/uclogo-black.jpg" height="80"><img src="assets/img/funders/wdc.png" height="80"></p>
+<p><br></p>
+</center>
+</section>
+<section id="contact-us" class="level1">
+<h1>Contact us</h1>
+<p>Associate Professor Jonathan Tonkin<br>
+Rutherford Discovery Fellow<br>
+Te Kura Pūtaiao Koiora | School of Biological Sciences<br>
+Te Whare Wānanga o Waitaha | University of Canterbury, New Zealand<br>
+W: +6433690413 | E: jonathan.tonkin@canterbury.ac.nz</p>
+<!-- <div style="background-image: url(assets/img/TwitterBanner.png);  -->
+<!--   background-size: cover; float: left; padding-top:80px; box-sizing: border-box; width: 100%; "> -->
+<!--   test text here -->
+<!--   </div> -->
+
+
+</section>
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Made with <iconify-icon inline="" icon="fa-brands:r-project"></iconify-icon> and <a href="https://quarto.org">quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/tonkinlab">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+ 2024  J. D. Tonkin.
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
+
+
+
+</body></html>
