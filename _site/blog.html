@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-bloglist .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-bloglist'] = new List('listing-bloglist', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -141,8 +141,10 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Tonkin Lab website" href="blog.xml" data-external="1"><meta property="og:title" content="Tonkin Lab website - Blog">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Tonkin Lab website">
 <meta name="twitter:title" content="Tonkin Lab website - Blog">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@jdtonkin">
 <meta name="twitter:card" content="summary">
 </head>
@@ -188,6 +190,10 @@ window.Quarto = {
     <a class="nav-link" href="./opportunities.html"> 
 <span class="menu-text">Opportunities</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="http://predirections.substack.com" target="_blank"> 
+<span class="menu-text">Newsletter</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -224,11 +230,9 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<p>This blog is a collection of posts by the lab. It is intended to keep you abreast of our research. If you’d like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono’s newsletter ‘Predirections’. It’s a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on <strong>solutions</strong>. It’s a great way to keep up to date with the latest research and thinking in the field. You can sign up <a href="https://predirections.substack.com">here</a>.</p>
+<p><br><br></p>
+<div id="listing-bloglist" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-date-sort="1711450800000" data-listing-file-modified-sort="1711501232738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
 <div class="thumbnail">
@@ -262,7 +266,12 @@ Jono Tonkin
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
