@@ -9,3 +9,5 @@ draft: false
 ![2022 lab retreat at Cass Field Station. Image credit: AJ Gillis](/assets/img/LabRetreat-28.jpg)
 
 Welcome to our new lab blog. Here, we'll try to keep you up to date on research that is coming out of the lab, as well as other things going on and stories behind papers. 
+
+I've copied over some of the old posts from the old blog that retain some relevance. 

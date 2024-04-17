@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tonkinlab.org/blog.html</loc>
-    <lastmod>2024-04-17T00:53:09.605Z</lastmod>
+    <lastmod>2024-04-17T01:24:17.271Z</lastmod>
   </url>
   <url>
     <loc>https://tonkinlab.org/people/alumni/elizabethDeJongh.html</loc>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://tonkinlab.org/posts/welcome/index.html</loc>
-    <lastmod>2024-03-27T01:00:32.738Z</lastmod>
+    <lastmod>2024-04-17T01:16:14.140Z</lastmod>
   </url>
   <url>
     <loc>https://tonkinlab.org/research/interests/teamScience.html</loc>
@@ -159,5 +159,9 @@
   <url>
     <loc>https://tonkinlab.org/opportunities.html</loc>
     <lastmod>2024-02-19T08:12:05.808Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tonkinlab.org/posts/prepareRivers/index.html</loc>
+    <lastmod>2024-04-17T01:28:59.031Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,27 @@
+---
+title: "How can we prepare river ecosystems for an uncertain future?"
+description: "River ecosystems are under pressure around the world. We need to be more proactive."
+author: "Jono Tonkin"
+date: "2019-07-05"
+draft: false
+---
+
+![Three Gorges Dam on the Yangtze River, China](/assets/img/3gorges.jpg)
+
+River ecosystems are under pressure around the world. Climate change is pushing river flow regimes (sequences of floods and droughts, and the bits in between) outside of their historical envelope of variability.
+
+What does this mean for management of rivers around the world? It puts it under pressure. Without knowing what rivers are going to look like in the future, we can’t confidently put steps in place to maintain or restore ecosystems or the fundamentally important services they provide to humanity.
+
+A standard management approach is to focus on restoring river ecosystems to historical states, but the rapid rate at which the climate is changing puts this sort of approach into question.
+
+Similarly, models often rely on correlations between historical flow regimes and population states. But such approaches do poorly at looking forward in time, missing important nonlinear trends and tipping points that are to be expected as the climate warms.
+
+We recently published a [perspective piece in Nature](https://www.nature.com/articles/d41586-019-01877-1) that calls for new ways to model and manage rivers under future uncertainty.
+
+In a nutshell, we argue that, given the high level of uncertainty regarding what is to come, rivers must be managed adaptively, and management should be informed by models that are better suited for forecasting into the future. Such models should be ‘mechanistic’ or ‘process-based’ rather than relying on relationships observed in the past. (For examples of such approaches, see the [paper](https://www.nature.com/articles/d41586-019-01877-1), which is aimed at a broad readership.)
+
+We are already seeing freshwater biodiversity disappearing at an alarming rate. We must act now before we lose the services that healthy, functioning rivers provide to humanity.
+
+Tonkin, J. D., Poff, N. L., Bond, N. R., Horne, A., Merritt, D. M., Reynolds, L. V., Olden, J. D., Ruhi, A., and Lytle, D. A. (2019) Prepare river ecosystems for an uncertain future, Nature, 570(7761), 301–303.
+
+Find the paper [here](https://www.nature.com/articles/d41586-019-01877-1)
