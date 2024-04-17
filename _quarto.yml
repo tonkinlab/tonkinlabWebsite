@@ -24,6 +24,9 @@ website:
       - publications.qmd
       - blog.qmd
       - opportunities.qmd
+      - href: http://predirections.substack.com
+        text: Newsletter
+        target: "_blank"
       # - icon: rss
       #   href: index.xml
   page-footer:
