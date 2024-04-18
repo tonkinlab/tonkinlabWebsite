@@ -31,8 +31,10 @@ about:
 
 Flattening its multidimensional space, the "sphere" of my research interest seems to have its centroid around functional traits, community plant ecology, and succession with applied topics on the side. The leading dimension aligns with generalisation and transferable prediction. The boundaries can be fuzzy.
 
-My journey in ecology began with holding my sneeze to not blow tiny seeds away while measuring their dry weights, getting neck pain trying to collect canopy leaves, and now mostly hitting Ctrl + Enter in R. After so many frustrations, I still ended up liking them.
+My journey in ecology began with holding my sneeze to not blow [tiny seeds](https://doi.org/10.1111/ele.12414) away while measuring their dry weights, getting neck pain trying to collect [canopy leaves](https://doi.org/10.1111/1365-2745.13347), and now mostly hurting fingers by hitting Ctrl + Enter in R. After so many frustrations, I like doing them.
 
-In the Tonkin and Tylianakis labs, starting in 2022 I will conduct theoretical work that addresses the link between ecological and (co-)evolutionary processes at local and regional scales in the context of pests, pathogens, or weeds. The general idea is to build spatiotemporal metacommunity models to understand evolutionary and ecological trade-offs between abiotic responses and biotic interactions with enemies and resource species.
+In the Tonkin and Tylianakis labs, I will conduct theoretical work that addresses the link between ecological and (co-)evolutionary processes at local and regional scales in the context of pests, pathogens, or weeds. The general idea is to build spatiotemporal metacommunity models to understand evolutionary and ecological trade-offs between abiotic responses and biotic interactions with enemies and resource species.
 
-And one of my favorite quotes is Philip K. Dick's "Reality is that which, when you stop believing in it, doesn't go away."
+On the side, I continue to do trait-based joint species distribution modelling, tree demography, forest successional dynamics etc.
+
+One of my favourite quotes is Philip K. Dick's "Reality is that which, when you stop believing in it, doesn't go away."
