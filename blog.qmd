@@ -10,7 +10,13 @@ listing:
   image-align: left
 ---
 
-This blog is a collection of posts by the lab. It is intended to keep you abreast of our research. If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com). 
+This blog is a collection of posts by the lab. It is intended to keep you abreast of our research. If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com) or enter your email below. 
+
+<center>
+
+<iframe src="https://predirections.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+</center>
 
 <br><br>
 

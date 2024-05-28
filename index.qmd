@@ -293,10 +293,11 @@ Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūt
 
 
 ## Sign up to Jono's newsletter
-If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com). 
+If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com) or enter your email below. 
 
 <center>
 
+<iframe src="https://predirections.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 [![](assets/img/predirectionsTall.png){ width=50% }](https://predirections.substack.com)
 
