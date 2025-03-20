@@ -1,7 +1,7 @@
 ---
-title: "Portia Sharp"
-sortby: "501"
-subtitle: "Master's student (_lead supervised by T. Logan_)"
+title: "Craig Simpkins"
+sortby: "105"
+subtitle: "Postdoctoral Fellow"
 # image: 
 started: "2024"
 toc: false
@@ -29,4 +29,4 @@ about:
     #   href: mailto:haoran.lai@canterbury.ac.nz 
 ---
 
-Lead supervisor: [Tom Logan](https://profiles.canterbury.ac.nz/Tom-Logan)
+To come.  

@@ -4,6 +4,7 @@ sortby: "403"
 subtitle: "PhD student (_lead supervised by A. McIntosh_)"
 image: hollyHarris.jpg
 started: "2021"
+ended: "2024"
 toc: false
 about:
   id: person-profile

@@ -4,6 +4,7 @@ sortby: "401"
 subtitle: "PhD student (_lead supervised by M. LaRue_)"
 image: roseFoster.jpg
 started: "2020"
+ended: "2024"
 toc: false
 about:
   id: person-profile

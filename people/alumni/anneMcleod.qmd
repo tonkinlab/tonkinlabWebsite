@@ -4,6 +4,7 @@ sortby: "101"
 subtitle: "Postdoctoral Fellow"
 image: anneMcLeod.jpg
 started: "2020"
+ended: "2024"
 toc: false
 about:
   id: person-profile

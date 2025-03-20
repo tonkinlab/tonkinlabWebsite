@@ -1,7 +1,7 @@
 ---
 title: "Gabrielle Koerich"
-sortby: "201"
-subtitle: "PhD student"
+sortby: "106"
+subtitle: "Postdoctoral fellow"
 image: gabrielleKoerich.jpg
 started: "2021"
 toc: false
@@ -31,6 +31,6 @@ about:
 
 I began my academic career with an Bachelor's degree in Oceanography, from the Federal University of Santa Catarina, Brazil. Throughout my B.Sc, I studied marine macroalgae, investigating how they respond to environmental stressors through ecophysiological experiments. In my Senior thesis, I started to work with species distribution models, and I became really interested in what determines the geographical distribution of species. I am now completing a Master's in Ecology at the same University, and I am assessing the vulnerability of Brazilian rhodolith beds (calcareous red algae) to global (ocean warming and acidification) and local stressors (increased nutrient runoff), using physiological and SDM tools.
 
-I am greatly interested in niche theory, and often catch myself thinking about all the dimensions of a species' niche and how it can change throughout time. I am also interested in understanding the impacts of climate change on populations and the dynamics of communities. I am enthusiastic to join the Tonkin Lab to pursue my PhD, which will be focused in understanding the effects of climate change on ecosystems in the Ross Sea region, and how the distribution of many species will be affected.
+I am greatly interested in niche theory, and often catch myself thinking about all the dimensions of a species' niche and how it can change throughout time. I am also interested in understanding the impacts of climate change on populations and the dynamics of communities. I completed my PhD in 2025, which focused on modelling the distributions of mosses in Antarctica. I am now doing a brief stint as a postdoc before moving onto a new position in Switzerland. 
 
 interests: Species distribution models | Ecological forecasting | Conservation biology | Populationa ecology | Niche theory

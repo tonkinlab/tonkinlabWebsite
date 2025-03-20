@@ -1,8 +1,8 @@
 ---
 title: "Julian Merder"
 sortby: "104"
-subtitle: "*Incoming* Postdoctoral Fellow"
-# image: 
+subtitle: "Postdoctoral Fellow"
+image: julianMerder.jpeg
 started: "2024"
 toc: false
 about:
@@ -29,4 +29,8 @@ about:
     #   href: mailto:haoran.lai@canterbury.ac.nz 
 ---
 
-Starting June 2024. 
+I am a quantitative ecologist studying the effects of climate change and human-induced stressors on aquatic ecosystems. I hold a bachelor’s degree in BioGeo-Analysis from the University of Trier (Germany), as well as a master’s and Ph.D. in Environmental Modeling from the University of Oldenburg (Institute for Chemistry and Biology of the Marine Environment, Germany). During my Ph.D., I developed statistical techniques and software to enhance ultrahigh-resolution mass spectrometry analyses, improving our ability to study dissolved organic matter (DOM) and its role in aquatic food webs, the microbial loop, and biogeochemical cycles.  
+  
+As a Postdoctoral Research Scientist at the Carnegie Institution for Science’s Department of Global Ecology in Stanford, California, I focused on predicting harmful algal blooms under climate change. I developed a model for microcystin concentrations in several thousand US lakes and collaborated with NASA to create a new remote sensing algorithm that improves satellite-based chlorophyll-a estimates in coastal regions, enhancing monitoring efforts for eutrophication and harmful algal blooms worldwide.  
+  
+In October 2024, I joined the Freshwater Ecology group. Here, I assess the effects of invasive species on New Zealand’s freshwater biodiversity and native fish fauna through the Fish Futures program. As part of the global GAMLSS team, I focus on data-driven modeling methods and interpretable machine learning to analyze large and complex environmental datasets.
