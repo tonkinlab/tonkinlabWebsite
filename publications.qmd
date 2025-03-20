@@ -53,7 +53,10 @@ pubdf <- pubdf %>%
 
 lab <- c("Gabrielle Koerich", 
          "Andrea Tabi", 
-         "Holly A. L. Harris")
+         "Holly A. L. Harris",
+         "Olivia R. Hore", 
+         "Rory S. Lennox", 
+         "Arkady Aspinwall")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
