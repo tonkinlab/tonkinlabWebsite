@@ -1,0 +1,21 @@
+---
+title: "The ecological benefits of more room for rivers"
+sortby: "103"
+subtitle: "_Nature Water_ 2025"
+image: mccabe25ecological.png
+image-title: "Here we synthesize the ecological benefits of allowing rivers more room to move. Doing so can represent a mutually beneficial solution for both the freshwater biodiversity crisis and flood hazard management as climate-driven extremes escalate."
+toc: false
+about:
+  id: research-interest
+  template: marquee
+---
+
+<br><b>The ecological benefits of more room for rivers</b><br>2025 – <i>Nature Water</i><br> <b>Christina L. McCabe</b>, Christoph D. Matthaei, <b>Jonathan D. Tonkin</b> <br>
+</li>
+<button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1038/s44221-025-00403-0" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="assets/papers/mccabe25ecological.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-97" aria-expanded="false" aria-controls="ref-97" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
+<div id="ref-97" class="collapse">
+<p class="small">
+<br>Floodplain river ecosystems have been extensively artificially constrained globally. As climate change heightens flood risks, the command-and-control approach to river flood management is beginning to make way for a paradigm shift towards “living with water”. The ecological co-benefits of this shift, where rivers are given the space they need to migrate on the landscape, have so far been undervalued. Here we synthesize the ecological benefits of allowing rivers more room to move. We emphasize how the physical and ecological processes of unconfined river channels interact to provide the foundations for ecosystem resilience through spatiotemporal variability in multiple dimensions, including hydrologic and meta-ecosystem connectivity. More informed and sustainable decision-making that involves trade-offs between river ecology and engineering will be aided by elucidating these connections. Giving rivers more room to move can represent a mutually beneficial solution for both the freshwater biodiversity crisis and flood hazard management as climate-driven extremes escalate.
+</p>
+<br>
+</div>

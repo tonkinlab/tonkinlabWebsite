@@ -56,7 +56,8 @@ lab <- c("Gabrielle Koerich",
          "Holly A. L. Harris",
          "Olivia R. Hore", 
          "Rory S. Lennox", 
-         "Arkady Aspinwall")
+         "Arkady Aspinwall",
+         "Christina L. McCabe")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",

@@ -10,7 +10,7 @@ about:
   template: marquee
 ---
 
-<br><span>62</span><b>. Designing flow regimes to support entire river ecosystems</b><br>2021 – <i>Frontiers in Ecology and the Environment</i><br> <b>Jonathan D. Tonkin</b>, Julian D. Olden, David M. Merritt, Lindsay V. Reynolds, Jane S. Rogosch, David A. Lytle <br>
+<br><b>Designing flow regimes to support entire river ecosystems</b><br>2021 – <i>Frontiers in Ecology and the Environment</i><br> <b>Jonathan D. Tonkin</b>, Julian D. Olden, David M. Merritt, Lindsay V. Reynolds, Jane S. Rogosch, David A. Lytle <br>
 </li>
 <button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1002/fee.2348" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="/assets/papers/tonkin21designing.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-62" aria-expanded="false" aria-controls="ref-62" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
 <div id="ref-62" class="collapse">

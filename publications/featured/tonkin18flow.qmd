@@ -10,7 +10,7 @@ about:
   template: marquee
 ---
 
-<br><span>45</span><b>. Flow regime alteration degrades ecological networks in riparian ecosystems</b><br>2018 – <i>Nature Ecology &amp; Evolution</i><br> <b>Jonathan D. Tonkin</b>, David. M. Merritt, Julian D. Olden, Lindsay V. Reynolds, David A. Lytle <br>
+<br><b>Flow regime alteration degrades ecological networks in riparian ecosystems</b><br>2018 – <i>Nature Ecology &amp; Evolution</i><br> <b>Jonathan D. Tonkin</b>, David. M. Merritt, Julian D. Olden, Lindsay V. Reynolds, David A. Lytle <br>
 </li>
 <button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1038/s41559-017-0379-0" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="/assets/papers/tonkin18flow.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-45" aria-expanded="false" aria-controls="ref-45" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
 <div id="ref-45" class="collapse">

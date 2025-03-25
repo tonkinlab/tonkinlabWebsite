@@ -10,7 +10,7 @@ about:
   template: marquee
 ---
 
-<br><span>52</span><b>. Prepare river ecosystems for an uncertain future</b><br>2019 – <i>Nature</i><br> <b>Jonathan D. Tonkin</b>, N. LeRoy Poff, Nick R. Bond, Avril Horne, David. M. Merritt, Lindsay V. Reynolds, Julian D. Olden, Albert Ruhi, David A. Lytle <br>
+<br><b>Prepare river ecosystems for an uncertain future</b><br>2019 – <i>Nature</i><br> <b>Jonathan D. Tonkin</b>, N. LeRoy Poff, Nick R. Bond, Avril Horne, David. M. Merritt, Lindsay V. Reynolds, Julian D. Olden, Albert Ruhi, David A. Lytle <br>
 </li>
 <button type="button" class="btn btn-sm btn-outline-success"> <a target="_blank" href="https://doi.org/10.1038/d41586-019-01877-1" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="ph:link-bold"></iconify-icon><i>&nbsp; fulltext</i></a> </button> <button type="button" class="btn btn-sm btn-outline-danger"> <a target="_blank" href="/assets/papers/tonkin19prepare.pdf" style="text-decoration: none; color:inherit;"> <iconify-icon inline="" icon="fa:file-pdf-o"></iconify-icon><i>&nbsp; pdf</i></a> </button> <button type="button" data-bs-toggle="collapse" data-bs-target="#ref-52" aria-expanded="false" aria-controls="ref-52" class="btn btn-sm btn-outline-info"><i class="bi bi-arrows-expand">&nbsp; abstract</i></button>
 <div id="ref-52" class="collapse">
