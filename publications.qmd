@@ -57,7 +57,8 @@ lab <- c("Gabrielle Koerich",
          "Olivia R. Hore", 
          "Rory S. Lennox", 
          "Arkady Aspinwall",
-         "Christina L. McCabe")
+         "Christina L. McCabe", 
+         "Daniel Hernández-Carrasco")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
@@ -229,7 +230,7 @@ pubdf <- pubdf %>%  rowwise %>%
 
 
 ```{r, echo= F, results='asis', warning = F}
-pub_types = unique(pubdf$bibtype) 
+pub_types <- unique(pubdf$bibtype) 
 pub_types <- factor(pub_types, levels =c("Preprint", "Book chapter", "Journal article"))
 pub_types <- sort(pub_types)
 pub_tags <- htmltools::tagList()
