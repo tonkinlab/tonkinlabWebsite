@@ -9,10 +9,11 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/featured/hernandez-carrasco25ecological.html",
+      "/publications/featured/tonkin19prepare.html",
       "/publications/featured/koerich23forecasting.html",
       "/publications/featured/mccabe25ecological.html",
       "/publications/featured/tonkin18flow.html",
-      "/publications/featured/tonkin19prepare.html",
       "/publications/featured/tonkin21design.html"
     ]
   },
