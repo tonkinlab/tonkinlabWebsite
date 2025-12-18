@@ -37,14 +37,16 @@ about:
 
 <h3>Welcome to the Tonkin Lab at the University of Canterbury, New Zealand, where we do <i>biodiversity science for a changing world</i></h3>
 
- <!-- <i>We tackle fundamental questions in ecology, including...</i> -->
+<!-- <i>We tackle fundamental questions in ecology, including...</i> -->
 
 <!-- <p style="text-align: center;"> -->
 
 <p><i>We tackle fundamental questions in ecology, including how populations and communities vary in space & time, how they resist and recover from change, and how they might look in a future world. We combine theory and experiments with data analysis and synthesis. We apply this knowledge to real-world problems to find solutions to the global biodiversity crisis and to prepare ecosystems for an uncertain future. We are particularly enamoured with freshwater ecosystems, but our research spans disciplinary and ecological boundaries.</i></p>
 
 <button class="btn btn-light" type="button">
+
 <a href="research.qmd" style="color:inherit" class="text-decoration-none"><i>Check our research {{< iconify ph arrow-right-bold >}}</i></a>
+
 </button>
 
 <br>
@@ -78,24 +80,26 @@ about:
 <!-- ::: -->
 
 <!-- ::: -->
-<h3>We are motivated to address---and provide solutions for---major challenges at the <i>biodiversity-climate nexus</i></h3>
-<button class="btn btn-light" type="button">
-<a href="blog.qmd" style="color:inherit" class="text-decoration-none"><i>Read our blog {{< iconify ph arrow-right-bold >}}</i></a>
-</button>
-<br>
-![Recent Tonkin Lab writing retreat to Westport Field Station. Missing: H. R. Lai, A. McLeod, A. Tabi, I. Reyes-Sainz. Image credit: AJ Gillis](assets/img/retreat3.jpg){.lightbox} <br><br>
 
+<h3>We are motivated to address---and provide solutions for---major challenges at the <i>biodiversity-climate nexus</i></h3>
+
+<button class="btn btn-light" type="button">
+
+<a href="blog.qmd" style="color:inherit" class="text-decoration-none"><i>Read our blog {{< iconify ph arrow-right-bold >}}</i></a>
+
+</button>
+
+<br> ![Recent Tonkin Lab writing retreat to Westport Field Station. Missing: H. R. Lai, A. McLeod, A. Tabi, I. Reyes-Sainz. Image credit: AJ Gillis](assets/img/retreat3.jpg){.lightbox} <br><br>
 
 <p><i> We are a team of interdisciplinary and collaborative scientists. Our work spans the theoretical-applied divide. We are committed to asking basic ecological questions, but we are also highly motivated by grand societal challenges, such as the joint biodiversity loss-climate change challenge. </i></p>
 
 <button class="btn btn-light" type="button">
+
 <a href="people.qmd" style="color:inherit" class="text-decoration-none"><i>Meet the team {{< iconify ph arrow-right-bold >}}</i></a>
+
 </button>
 
-
 <br><br><br>
-
-
 
 <!-- <center> -->
 
@@ -188,34 +192,33 @@ Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūt
 # News
 
 ::: scrolling
-
 **June 2025 » Gabi successfully completes her PhD!** Massive congratulations to Gabrielle Koerich on successfully defending her PhD thesis "Forecasting Antarctic moss distributions: unravelling patterns and dispersal dynamics in a fragmented landscape". Gabi's work has been a monumental effort, with her first chapter published in TREE and a couple more to come soon. Her research will significantly advance our understanding of how Antarctic ecosystems might respond to climate change. Well done, Gabi! Gabi has moved on to a postdoctoral fellowship at EAWAG in Switzerland. You'll be missed, Gabi!
 
 **June 2025 » New paper in TREE on the typology of ecological impacts of biological invasions.** Jono was part of a large collaborative effort to develop a typology of ecological impacts of biological invasions. The paper is now out in Trends in Ecology and Evolution. Led by Laís Carneiro and Franck Courchamp as part of Franck's InvaPact research programme, the typology is designed to help researchers and managers better understand the diverse impacts of invasive species on ecosystems. Find the pdf on the publications page. Or check out the blog post [here](https://predirections.substack.com/p/the-many-faces-of-invasive-species).
 
-**May 2025 » Dani's paper published in Science!** Congratulations Dani! It's a wide-ranging review on the ecological and evolutionary consequences of changing seasonality. In short, seasonality is changing in diverse ways as a result of climate change, but we've likely underestimated the ecological consequences of this due to the way impacts propagate across levels of biological organisation from genes to ecosystems. Check it out! Press release [here](Press release: https://www.canterbury.ac.nz/news-and-events/news/2025/seasonal-shake-ups-upsetting-natural-processes--study-shows). We've also written a piece on The Conversation [here](https://theconversation.com/earths-seasonal-rhythms-are-changing-putting-species-and-ecosystems-at-risk-257660). Find the pdf on the publications page.
+**May 2025 » Dani's paper published in Science!** Congratulations Dani! It's a wide-ranging review on the ecological and evolutionary consequences of changing seasonality. In short, seasonality is changing in diverse ways as a result of climate change, but we've likely underestimated the ecological consequences of this due to the way impacts propagate across levels of biological organisation from genes to ecosystems. Check it out! Press release [here](Press%20release:%20https://www.canterbury.ac.nz/news-and-events/news/2025/seasonal-shake-ups-upsetting-natural-processes--study-shows). We've also written a piece on The Conversation [here](https://theconversation.com/earths-seasonal-rhythms-are-changing-putting-species-and-ecosystems-at-risk-257660). Find the pdf on the publications page.
 
-**March 2025 » Christina's paper published in Nature Water!** Congratulations Christina! While reinforcing stopbanks and deepening channels may seem like logical responses to increased flood risk, these approaches often exacerbate long-term vulnerabilities and transfer risk elsewhere. Giving rivers room to move provides a mutually beneficial solution for both people and nature. Not only does widening stopbanks/levees help mitigate flood risk, but we demonstrate widespread ecological co-benefits of doing so. Check it out! We've also written a piece on The Conversation [here](https://theconversation.com/giving-rivers-room-to-move-how-rethinking-flood-management-can-benefit-people-and-nature-251225). 
+**March 2025 » Christina's paper published in Nature Water!** Congratulations Christina! While reinforcing stopbanks and deepening channels may seem like logical responses to increased flood risk, these approaches often exacerbate long-term vulnerabilities and transfer risk elsewhere. Giving rivers room to move provides a mutually beneficial solution for both people and nature. Not only does widening stopbanks/levees help mitigate flood risk, but we demonstrate widespread ecological co-benefits of doing so. Check it out! We've also written a piece on The Conversation [here](https://theconversation.com/giving-rivers-room-to-move-how-rethinking-flood-management-can-benefit-people-and-nature-251225).
 
-**February 2025 » Gabi submits her PhD!** Woohoo! Congratulations, Gabi! Gabi has submitted a wonderful thesis on modelling moss distributions in Antarctica full of complex, bespoke modelling approaches to overcome the limitations associated with modelling small things in a very big environment.  
+**February 2025 » Gabi submits her PhD!** Woohoo! Congratulations, Gabi! Gabi has submitted a wonderful thesis on modelling moss distributions in Antarctica full of complex, bespoke modelling approaches to overcome the limitations associated with modelling small things in a very big environment.
 
-**January 2025 » Olivia's paper published.** Congrats, Olivia for a great piece of work highlighting the complex interactions between trout, galaxiids, and flow conditions. Untangling this complex relationship is no small feat, requiring lots of intense fieldwork. Find the paper on the publications page. 
+**January 2025 » Olivia's paper published.** Congrats, Olivia for a great piece of work highlighting the complex interactions between trout, galaxiids, and flow conditions. Untangling this complex relationship is no small feat, requiring lots of intense fieldwork. Find the paper on the publications page.
 
 **December 2024 » Craig Simpkins joins the group.** Welcome Craig! Craig is joining as a postdoctoral fellow to work on forecasting river communities as part of Jono's Te Pūnaha Matatini project.
 
-**November 2024 » Julian Merder joins the group.** Welcome to the group Julian! Julian joins as a Postdoctoral Fellow to work on the Fish Futures research grant in the project Jono and Angus McIntosh lead on trout-galaxiid interactions.  
+**November 2024 » Julian Merder joins the group.** Welcome to the group Julian! Julian joins as a Postdoctoral Fellow to work on the Fish Futures research grant in the project Jono and Angus McIntosh lead on trout-galaxiid interactions.
 
-**June 2024 » Jono involved in global collaborative project published in Science.** Jono is excited to be part of a global team that has published a paper in Science on the role of human activities in shaping global patterns of decomposition rates in rivers. Find the paper [here](https://www.science.org/doi/10.1126/science.adn1262) or find the pdf on the publications page. 
+**June 2024 » Jono involved in global collaborative project published in Science.** Jono is excited to be part of a global team that has published a paper in Science on the role of human activities in shaping global patterns of decomposition rates in rivers. Find the paper [here](https://www.science.org/doi/10.1126/science.adn1262) or find the pdf on the publications page.
 
-**April 2024 » Jono starts a newsletter.** Jono started a newsletter, which you can find here: https://predirections.substack.com. The theme is "Reflections on the biodiversity-climate nexus, with a touch of water resource management: predictions, redirections, adaptations. Personal reflections and actionable information from a working scientist." Go check it out and subscribe to keep up to date. 
+**April 2024 » Jono starts a newsletter.** Jono started a newsletter, which you can find here: https://predirections.substack.com. The theme is "Reflections on the biodiversity-climate nexus, with a touch of water resource management: predictions, redirections, adaptations. Personal reflections and actionable information from a working scientist." Go check it out and subscribe to keep up to date.
 
 **April 2024 » Anne departs.** We're sorry to see Anne go, but super happy for her to move on to bigger and better things as a research scientist at IGB in Berlin! Congrats, Anne. We'll miss you!
 
-**Feb 2024 » We're back from our third successful lab retreat.** Ten of us went over to the Westport Field Station for a week of science, writing, and fun. This time was a little different. We went there with a specific purpose of writing a group paper together. Stay tuned for more. 
+**Feb 2024 » We're back from our third successful lab retreat.** Ten of us went over to the Westport Field Station for a week of science, writing, and fun. This time was a little different. We went there with a specific purpose of writing a group paper together. Stay tuned for more.
 
-**Dec 2023 » Jono publishes long-awaited paper on 'matrix community models for ecology and evolution'.** Dave Lytle and Jono are excited to share this work with the world after thinking long about the topic. Find the paper in npj Biodiversity [here](https://www.nature.com/articles/s44185-023-00031-5) and find the pdf on the publications page. 
+**Dec 2023 » Jono publishes long-awaited paper on 'matrix community models for ecology and evolution'.** Dave Lytle and Jono are excited to share this work with the world after thinking long about the topic. Find the paper in npj Biodiversity [here](https://www.nature.com/articles/s44185-023-00031-5) and find the pdf on the publications page.
 
-**Nov 2023 » Holly publishes book chapter.** Congratulations to Holly for publishing a book chapter on multiscale ecological resilience in braided rivers. Find the chapter [here](https://www.sciencedirect.com/science/article/abs/pii/B9780323917162000145) and find the pdf on the publications page. 
+**Nov 2023 » Holly publishes book chapter.** Congratulations to Holly for publishing a book chapter on multiscale ecological resilience in braided rivers. Find the chapter [here](https://www.sciencedirect.com/science/article/abs/pii/B9780323917162000145) and find the pdf on the publications page.
 
 **Oct 2023 » New horizon scan paper on climate change impacts on Aotearoa New Zealand.** Jono was part of a fun collaboration as part of Te Pūnaha Matatini Centre of Research Excellence. Find the paper [here](https://www.tandfonline.com/doi/abs/10.1080/03036758.2023.2267016) and find the pdf on the publications page.
 
@@ -312,19 +315,19 @@ Jono was recently honoured with New Zealand's Prime Minister's Te Puiaki Kaipūt
 
 <!-- ![](assets/img/vision.png){.lightbox} <br><br> -->
 
-
-
 ## Sign up to Jono's newsletter
-If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com) or enter your email below. 
+
+If you'd like a weekly dose of insight on the biodiversity-climate nexus and water resource management, please sign up to Jono's newsletter 'Predirections'. It's a mix of science (including some of our own), policy and personal reflections on the state of the world, with a focus on **solutions**. It's a great way to keep up to date with the latest research and thinking in the field. You can sign up [here](https://predirections.substack.com) or enter your email below.
 
 <center>
 
-<iframe src="https://predirections.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://predirections.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no">
 
-[![](assets/img/predirectionsTall.png){ width=50% }](https://predirections.substack.com)
+</iframe>
+
+[![](assets/img/predirectionsTall.png){width="50%"}](https://predirections.substack.com)
 
 <br><br><br>
-
 
 Proudly supported by:
 
@@ -357,5 +360,3 @@ W: +6433690413 \| E: jonathan.tonkin\@canterbury.ac.nz
 <!--   test text here -->
 
 <!--   </div> -->
-
-

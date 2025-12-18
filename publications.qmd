@@ -58,7 +58,14 @@ lab <- c("Gabrielle Koerich",
          "Rory S. Lennox", 
          "Arkady Aspinwall",
          "Christina L. McCabe", 
-         "Daniel Hernández-Carrasco")
+         "Daniel Hernández-Carrasco",
+         "Daniel Hernandez-Carrasco",
+         "Hao Ran Lai", 
+         "Ilya Shabanov",
+         "Julian Merder",
+         "Naomi Heller",
+         "Anthony Gillis",
+         "Anthony J. Gillis")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
