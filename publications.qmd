@@ -65,7 +65,11 @@ lab <- c("Gabrielle Koerich",
          "Julian Merder",
          "Naomi Heller",
          "Anthony Gillis",
-         "Anthony J. Gillis")
+         "Anthony J. Gillis, 
+         Jonathan D Tonkin,
+         Naomi R. Heller,
+         Christina McCabe,
+         Li Wang")
 
 # 
 # RefManageR::PrintBibliography(pubs, .opts = list(style = "latex",
