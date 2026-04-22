@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/frontiersPP/index.html",
       "/posts/welcome/index.html",
       "/posts/prepareRivers/index.html"
     ]
